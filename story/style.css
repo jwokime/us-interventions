@@ -1,0 +1,23 @@
+#map-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#progress-bar {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 80%;
+  height: 20px;
+  background-color: lightgrey;
+}
+
+#scroll-container {
+  height: 2000px; /* Adjust based on your content */
+}
