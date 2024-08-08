@@ -16,7 +16,7 @@ map.keyboard.disable();
 map.on('load', () => {
     map.addSource('interv', {
         type: 'geojson',
-        data: '../data/interventions.geojson', 
+        data: '/data/interventions.geojson', 
         cluster: true, 
         clusterMaxZoom: 14, 
         clusterRadius: 50,
