@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapping the History of US Military Interventions</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/mapboxgl-spiderifier@1.0.10/index.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/mapboxgl-spiderifier@1.0.10/index.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>        
+
+    <style>
+        @font-face {
+            font-family: 'regular';
+            src: url('fonts/Roboto-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'italic';
+            src: url('fonts/GT-America-Mono-Thin-Italic-Trial.otf');
+        }
+        body { 
+            margin: 0; 
+            padding: 0; 
+        }
+        a{
+            color: white;
+        }
+        #header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #1A1A1A;
+            padding-left: 10px;
+            z-index: 100;
+            font-family: 'italic';
+            font-size: 10px;
+            color: #fff;
+        }
+        #map { 
+            position: absolute; 
+            top: 1.2em; 
+            bottom: 0; 
+            width: 100%; 
+        }
+        #console {
+            position: fixed;
+            width: 300px;
+            margin: 10px;
+            margin-top: 90px;
+            padding: 10px 20px;
+            background-color: #0D0D0D;
+            font-family: 'regular';
+            font-size: 14px;
+            line-height: 1.5em;
+            color: white;
+        }
+        .tabs {
+            position: fixed;
+            width: 240px;
+            margin: 10px;
+            margin-top: 65px;
+            display: flex;
+            flex-direction: row;
+            font-family: 'italic';
+            font-size: 12px;
+            color: white;
+        }
+        .tab {
+            padding: 6px;
+            cursor: pointer;
+            margin-bottom: 5px;
+            font-family: 'italic';
+            font-size: 12px;
+        }
+        .tab.active {
+            background-color: #0D0D0D;
+        }
+        .tab-content {
+            display: none;
+            overflow: auto;
+        }
+        .tab-content.active {
+            display: block;
+            margin-left: 5px;
+        }
+        #more {
+            max-height: 100%; /* Set max height to the available space */
+        }
+        .filter {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* dropdowns */
+        .dropdown-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+            border: 1px solid #333; /* Square border around the dropdown */
+            background-color: #0D0D0D;
+            font-size: 12px;
+            color: white;
+        }
+        .dropdown {
+            border: none;
+            background-color: #0D0D0D;
+            padding: 5px;
+            font-size: 12px;
+            color: white;
+            cursor: pointer;
+            border-radius: 0;
+            width: 100%;
+        }
+
+        /* checkboxes */
+        .checkbox-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 5px;
+            margin-bottom: 2px;
+            border: 1px solid #333;
+            background-color: #0D0D0D;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .checkmark {
+            width: 15px;
+            height: 15px;
+            margin-left: 10px;
+            border: 1px solid #333;
+            background-color: black;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .checkmark::after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            display: none;
+        }
+
+        .checkbox-container input[type="checkbox"]:checked + .checkmark::after {
+            display: block;
+        }
+        
+        img {
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script type="module" src="map.js"></script>
+
+    <div id='header'>
+        <h1>A MAPPED HISTORY OF US MILITARY INTERVENTIONS</h1>
+    </div>
+
+    <div id="sidebar">
+        <div class="tabs">
+            <div class="tab active" data-target="filters">Filters</div>
+            <div class="tab" data-target="about">About</div>
+        </div>
+        <div id="console">
+            <div class="tab-content-container">
+
+                <div id="filters" class="tab-content active">
+
+                    <div class="session" id="eras-filter">
+                        <h3>Filter by time period</h3>
+                        <div class="dropdown-container">
+                            <select id="era-dropdown" class="dropdown">
+                                <option value="all">All</option>
+                                <option value="3.0">Postwar</option>
+                                <option value="4.0">Cold War</option>
+                                <option value="5.0">Pre 9/11</option>
+                                <option value="6.0">Post 9/11</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="session" id="pres-filter">
+                        <h3>Filter by President</h3>
+                        <div class = "dropdown-container">
+                            <select id="president-dropdown" class="dropdown">
+                                <option value="all">All</option>
+                                <option value="Truman">Truman</option>
+                                <option value="Eisenhower">Eisenhower</option>
+                                <option value="Kennedy">Kennedy</option>
+                                <option value="Johnson">Johnson</option>
+                                <option value="Nixon">Nixon</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Carter">Carter</option>
+                                <option value="Reagan">Reagan</option>
+                                <option value="Bush Sr.">Bush Sr.</option>
+                                <option value="Clinton">Clinton</option>
+                                <option value="Bush Jr.">Bush Jr.</option>
+                                <option value="Obama">Obama</option>
+                                <option value="Trump">Trump</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="session" id="motives-filter">
+                        <h3>Intervention Motives</h3>
+                        <div class="session" id="checklistbar">
+                            <label class="checkbox-container">
+                                Remove Foreign Regime
+                                <input type="checkbox" class="motives-checkbox" value="Remove Foreign Regime" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Build Foreign Regime Authority
+                                <input type="checkbox" class="motives-checkbox" value="Build Foreign Regime Authority" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Maintain Empire
+                                <input type="checkbox" class="motives-checkbox" value="Maintain Empire" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Acquire/Defend Territory
+                                <input type="checkbox" class="motives-checkbox" value="Acquire/Defend Territory" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Policy Change
+                                <input type="checkbox" class="motives-checkbox" value="Policy Change" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Social Protection
+                                <input type="checkbox" class="motives-checkbox" value="Social Protection" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Economic Protection
+                                <input type="checkbox" class="motives-checkbox" value="Economic Protection" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div id="about" class="tab-content">
+                    <p>From covert coup d’etats to full-fledged war, the United States has consistently taken on an interventionist 
+                    stance when it comes to foreign policy ever since its rise to a hegemonic power post World War II. In 2023, it spent around 
+                    $961 billion in defense alone, which is more than the defense spending of 31 of its NATO allies combined. The exact scale and reach 
+                    of US interventionism, however, is seldom discussed in its entirety.</p>
+
+                    <p>This map visualizes a history of US interventions around the world from 1945 to 2019 using data from the <a href="https://sites.tufts.edu/css/mip-research/mip-dataset/">Military Intervention Project (MIP)</a>, 
+                    which was compiled by researchers at Tuft University. It is far from comprehensive; because the dataset ends in 2019, it leaves out major 
+                    events that have occured since then such as the ongoing Ukrainian War and the Israel-Palestine Conflict. It also seems to leave out more 
+                    controversial instances, such as support for the Guatemalan Civil War, which has now been ruled a genocide, or support for the Suharto regime 
+                    during the Indonesian Mass Killings of 1965-1966.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                document.getElementById(tab.getAttribute('data-target')).classList.add('active');
+            });
+        });
+    </script>
+    
+</div>
+</body>
+</html>
+
+  

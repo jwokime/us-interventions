@@ -26,16 +26,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.00029751304381,
-				"long": 105.0007882362049,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.000082819944836,
+				"long": 105.00008281994484
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.0007882362049,
-					35.00029751304381
+					105.00008281994484,
+					35.000082819944836
 				]
 			}
 		},
@@ -64,16 +63,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.999408086259145,
-				"long": 100.00067277272986,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99995178299767,
+				"long": 99.99995178299767
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00067277272986,
-					59.999408086259145
+					99.99995178299767,
+					59.99995178299767
 				]
 			}
 		},
@@ -102,16 +100,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "YU",
-				"lat": 43.85085060159618,
-				"long": 18.200207813249065,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.85001002163433,
+				"long": 18.200010021634327
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.200207813249065,
-					43.85085060159618
+					18.200010021634327,
+					43.85001002163433
 				]
 			}
 		},
@@ -140,16 +137,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "UY",
-				"lat": -32.999194164363395,
-				"long": -56.00053095047489,
-				"name": "Uruguay",
-				"countryName": "Uruguay"
+				"countryName": "Uruguay",
+				"lat": -33.00009938337879,
+				"long": -56.00009938337879
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-56.00053095047489,
-					-32.999194164363395
+					-56.00009938337879,
+					-33.00009938337879
 				]
 			}
 		},
@@ -178,16 +174,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "GR",
-				"lat": 39.000201371618026,
-				"long": 21.999269163788632,
-				"name": "Greece",
-				"countryName": "Greece"
+				"countryName": "Greece",
+				"lat": 38.99995478303616,
+				"long": 21.999954783036156
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					21.999269163788632,
-					39.000201371618026
+					21.999954783036156,
+					38.99995478303616
 				]
 			}
 		},
@@ -216,16 +211,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "IL",
-				"lat": 31.046051,
-				"long": 34.851612,
-				"name": "Israel",
-				"countryName": "Israel"
+				"countryName": "Israel",
+				"lat": 31.5,
+				"long": 34.75
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					34.851612,
-                    31.046051
+					34.75,
+					31.5
 				]
 			}
 		},
@@ -254,16 +248,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 59.99900104317914,
-				"long": 100.00015586812383,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99996604374532,
+				"long": 99.99996604374532
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00015586812383,
-					59.99900104317914
+					99.99996604374532,
+					59.99996604374532
 				]
 			}
 		},
@@ -292,16 +285,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "YU",
-				"lat": 43.849583880644666,
-				"long": 18.199255295995926,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.85009134658174,
+				"long": 18.20009134658174
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.199255295995926,
-					43.849583880644666
+					18.20009134658174,
+					43.85009134658174
 				]
 			}
 		},
@@ -330,16 +322,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.0005566373904,
-				"long": 104.99917723435487,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.000078265105145,
+				"long": 105.00007826510515
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99917723435487,
-					35.0005566373904
+					105.00007826510515,
+					35.000078265105145
 				]
 			}
 		},
@@ -368,16 +359,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TW",
-				"lat": 24.000804412988234,
-				"long": 121.00053390489963,
-				"name": "Taiwan",
-				"countryName": "Taiwan"
+				"countryName": "Taiwan",
+				"lat": 23.99996285322031,
+				"long": 120.99996285322031
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.00053390489963,
-					24.000804412988234
+					120.99996285322031,
+					23.99996285322031
 				]
 			}
 		},
@@ -406,16 +396,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 34.99955280837138,
-				"long": 104.99989204541625,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.99994045321542,
+				"long": 104.99994045321542
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99989204541625,
-					34.99955280837138
+					104.99994045321542,
+					34.99994045321542
 				]
 			}
 		},
@@ -444,10 +433,9 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "CZ",
+				"countryName": "Czechia",
 				"lat": 49.75,
-				"long": 15.0,
-				"name": "Czechia",
-				"countryName": "Czechia"
+				"long": 15.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -482,16 +470,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TW",
-				"lat": 24.000226401191018,
-				"long": 120.99905555341705,
-				"name": "Taiwan",
-				"countryName": "Taiwan"
+				"countryName": "Taiwan",
+				"lat": 23.99996503917942,
+				"long": 120.99996503917941
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					120.99905555341705,
-					24.000226401191018
+					120.99996503917941,
+					23.99996503917942
 				]
 			}
 		},
@@ -520,16 +507,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.00047439786681,
-				"long": 104.99939821866366,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.999927480720935,
+				"long": 104.99992748072093
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99939821866366,
-					35.00047439786681
+					104.99992748072093,
+					34.999927480720935
 				]
 			}
 		},
@@ -558,16 +544,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "GT",
-				"lat": 15.499056757306759,
-				"long": -90.24917739773393,
-				"name": "Guatemala",
-				"countryName": "Guatemala"
+				"countryName": "Guatemala",
+				"lat": 15.500022024724608,
+				"long": -90.24997797527539
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-90.24917739773393,
-					15.499056757306759
+					-90.24997797527539,
+					15.500022024724608
 				]
 			}
 		},
@@ -596,16 +581,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.00071255224915,
-				"long": 126.99980941822982,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.999938023192215,
+				"long": 126.99993802319221
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99980941822982,
-					40.00071255224915
+					126.99993802319221,
+					39.999938023192215
 				]
 			}
 		},
@@ -634,16 +618,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.000955203956394,
-				"long": 105.00099037336669,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.99998615516063,
+				"long": 104.99998615516063
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.00099037336669,
-					35.000955203956394
+					104.99998615516063,
+					34.99998615516063
 				]
 			}
 		},
@@ -672,16 +655,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "VN",
-				"lat": 16.16713502333401,
-				"long": 107.8337087211505,
-				"name": "Vietnam",
-				"countryName": "Vietnam"
+				"countryName": "Vietnam",
+				"lat": 16.166712324088618,
+				"long": 107.83337232408863
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					107.8337087211505,
-					16.16713502333401
+					107.83337232408863,
+					16.166712324088618
 				]
 			}
 		},
@@ -710,16 +692,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "CN",
-				"lat": 35.000638793321265,
-				"long": 105.00082428156598,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.99994245306792,
+				"long": 104.99994245306792
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.00082428156598,
-					35.000638793321265
+					104.99994245306792,
+					34.99994245306792
 				]
 			}
 		},
@@ -748,16 +729,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 60.000609394652265,
-				"long": 100.00066778992621,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99992545464351,
+				"long": 99.99992545464352
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00066778992621,
-					60.000609394652265
+					99.99992545464352,
+					59.99992545464351
 				]
 			}
 		},
@@ -786,16 +766,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.00019869306197,
-				"long": 104.99997154186761,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.000076619566435,
+				"long": 105.00007661956643
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99997154186761,
-					35.00019869306197
+					105.00007661956643,
+					35.000076619566435
 				]
 			}
 		},
@@ -824,16 +803,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 60.00012323829915,
-				"long": 99.99900816019432,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.00008975920348,
+				"long": 100.00008975920348
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99900816019432,
-					60.00012323829915
+					100.00008975920348,
+					60.00008975920348
 				]
 			}
 		},
@@ -862,16 +840,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 32.99935423579719,
-				"long": 43.99984120445457,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 32.99990691619007,
+				"long": 43.99990691619007
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.99984120445457,
-					32.99935423579719
+					43.99990691619007,
+					32.99990691619007
 				]
 			}
 		},
@@ -900,16 +877,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "LB",
-				"lat": 33.83355237163034,
-				"long": 35.83314290531219,
-				"name": "Lebanon",
-				"countryName": "Lebanon"
+				"countryName": "Lebanon",
+				"lat": 33.83324600546502,
+				"long": 35.83324600546502
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					35.83314290531219,
-					33.83355237163034
+					35.83324600546502,
+					33.83324600546502
 				]
 			}
 		},
@@ -938,16 +914,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.0006731829224,
-				"long": 127.00075461165109,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00003038738428,
+				"long": 127.00003038738429
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.00075461165109,
-					40.0006731829224
+					127.00003038738429,
+					40.00003038738428
 				]
 			}
 		},
@@ -976,16 +951,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.99957905716695,
-				"long": 99.99978882696803,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999976526244566,
+				"long": 99.99997652624457
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99978882696803,
-					59.99957905716695
+					99.99997652624457,
+					59.999976526244566
 				]
 			}
 		},
@@ -1014,16 +988,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 60.00069884243927,
-				"long": 99.99993276223462,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999967237487255,
+				"long": 99.99996723748725
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99993276223462,
-					60.00069884243927
+					99.99996723748725,
+					59.999967237487255
 				]
 			}
 		},
@@ -1052,16 +1025,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 22.000782877119327,
-				"long": -79.5002206828664,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 22.00004830957317,
+				"long": -79.49995169042683
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.5002206828664,
-					22.000782877119327
+					-79.49995169042683,
+					22.00004830957317
 				]
 			}
 		},
@@ -1090,16 +1062,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "CU",
-				"lat": 22.000379298121164,
-				"long": -79.5008340123392,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 22.00006484070843,
+				"long": -79.49993515929157
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.5008340123392,
-					22.000379298121164
+					-79.49993515929157,
+					22.00006484070843
 				]
 			}
 		},
@@ -1128,16 +1099,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "CD",
-				"lat": -2.5004149537764704,
-				"long": 23.500180197112623,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.499990583315016,
+				"long": 23.500009416684986
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.500180197112623,
-					-2.5004149537764704
+					23.500009416684986,
+					-2.499990583315016
 				]
 			}
 		},
@@ -1166,16 +1136,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 59.99918956562497,
-				"long": 100.00043792976174,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999953006057204,
+				"long": 99.99995300605721
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00043792976174,
-					59.99918956562497
+					99.99995300605721,
+					59.999953006057204
 				]
 			}
 		},
@@ -1204,16 +1173,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "DO",
-				"lat": 19.00067175642036,
-				"long": -70.66600530939267,
-				"name": "Dominican Republic",
-				"countryName": "Dominican Republic"
+				"countryName": "Dominican Republic",
+				"lat": 19.000070716870088,
+				"long": -70.66659928312991
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-70.66600530939267,
-					19.00067175642036
+					-70.66659928312991,
+					19.000070716870088
 				]
 			}
 		},
@@ -1242,10 +1210,9 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "DE",
+				"countryName": "Germany",
 				"lat": 51.5,
-				"long": 10.5,
-				"name": "Germany",
-				"countryName": "Germany"
+				"long": 10.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -1280,16 +1247,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.99922220249465,
-				"long": 100.0002502413724,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999937389845144,
+				"long": 99.99993738984514
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.0002502413724,
-					59.99922220249465
+					99.99993738984514,
+					59.999937389845144
 				]
 			}
 		},
@@ -1318,16 +1284,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 34.99964562846791,
-				"long": 105.0003546625889,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.99991601607571,
+				"long": 104.99991601607572
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.0003546625889,
-					34.99964562846791
+					104.99991601607572,
+					34.99991601607571
 				]
 			}
 		},
@@ -1356,16 +1321,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 21.999632429695858,
-				"long": -79.50056183208407,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 22.00008532801702,
+				"long": -79.49991467198298
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50056183208407,
-					21.999632429695858
+					-79.49991467198298,
+					22.00008532801702
 				]
 			}
 		},
@@ -1394,16 +1358,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "LA",
-				"lat": 19.85627,
-				"long": 102.495496,
-				"name": "Laos",
-				"countryName": "Laos"
+				"countryName": "Laos",
+				"lat": 18.0,
+				"long": 105.0
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					102.495496,
-                    19.85627
+					105.0,
+					18.0
 				]
 			}
 		},
@@ -1432,16 +1395,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TH",
-				"lat": 15.500097030682781,
-				"long": 101.00050500565426,
-				"name": "Thailand",
-				"countryName": "Thailand"
+				"countryName": "Thailand",
+				"lat": 15.499990267018102,
+				"long": 100.9999902670181
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					101.00050500565426,
-					15.500097030682781
+					100.9999902670181,
+					15.499990267018102
 				]
 			}
 		},
@@ -1470,16 +1432,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "HT",
-				"lat": 18.999504206377537,
-				"long": -72.41702312472032,
-				"name": "Haiti",
-				"countryName": "Haiti"
+				"countryName": "Haiti",
+				"lat": 19.000082297402354,
+				"long": -72.41658770259764
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-72.41702312472032,
-					18.999504206377537
+					-72.41658770259764,
+					19.000082297402354
 				]
 			}
 		},
@@ -1508,16 +1469,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "KH",
-				"lat": 12.999469070776925,
-				"long": 104.99972360388476,
-				"name": "Cambodia",
-				"countryName": "Cambodia"
+				"countryName": "Cambodia",
+				"lat": 12.999934855961232,
+				"long": 104.99993485596123
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99972360388476,
-					12.999469070776925
+					104.99993485596123,
+					12.999934855961232
 				]
 			}
 		},
@@ -1546,16 +1506,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "CD",
-				"lat": -2.5001816973558064,
-				"long": 23.499875422804386,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.500054991935512,
+				"long": 23.499945008064486
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.499875422804386,
-					-2.5001816973558064
+					23.499945008064486,
+					-2.500054991935512
 				]
 			}
 		},
@@ -1584,16 +1543,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "VN",
-				"lat": 16.166024979749935,
-				"long": 107.83361006472381,
-				"name": "Vietnam",
-				"countryName": "Vietnam"
+				"countryName": "Vietnam",
+				"lat": 16.16673306873539,
+				"long": 107.83339306873539
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					107.83361006472381,
-					16.166024979749935
+					107.83339306873539,
+					16.16673306873539
 				]
 			}
 		},
@@ -1622,16 +1580,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.000064394869646,
-				"long": 104.99978942087152,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00009937811636,
+				"long": 105.00009937811636
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99978942087152,
-					35.000064394869646
+					105.00009937811636,
+					35.00009937811636
 				]
 			}
 		},
@@ -1660,16 +1617,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "DO",
-				"lat": 19.000137739762764,
-				"long": -70.66591754481729,
-				"name": "Dominican Republic",
-				"countryName": "Dominican Republic"
+				"countryName": "Dominican Republic",
+				"lat": 19.000051715966098,
+				"long": -70.6666182840339
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-70.66591754481729,
-					19.000137739762764
+					-70.6666182840339,
+					19.000051715966098
 				]
 			}
 		},
@@ -1698,16 +1654,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.99910778582662,
-				"long": 126.99912277110941,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.99998829524124,
+				"long": 126.99998829524124
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99912277110941,
-					39.99910778582662
+					126.99998829524124,
+					39.99998829524124
 				]
 			}
 		},
@@ -1736,16 +1691,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "GT",
-				"lat": 15.500204133470556,
-				"long": -90.25020707916904,
-				"name": "Guatemala",
-				"countryName": "Guatemala"
+				"countryName": "Guatemala",
+				"lat": 15.499964930285591,
+				"long": -90.25003506971441
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-90.25020707916904,
-					15.500204133470556
+					-90.25003506971441,
+					15.499964930285591
 				]
 			}
 		},
@@ -1774,16 +1728,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CD",
-				"lat": -2.500146839560652,
-				"long": 23.499141107225533,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.500003830500712,
+				"long": 23.499996169499287
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.499141107225533,
-					-2.500146839560652
+					23.499996169499287,
+					-2.500003830500712
 				]
 			}
 		},
@@ -1812,16 +1765,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.99915892073916,
-				"long": 100.00085056176529,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99993811514387,
+				"long": 99.99993811514386
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00085056176529,
-					59.99915892073916
+					99.99993811514386,
+					59.99993811514387
 				]
 			}
 		},
@@ -1850,16 +1802,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 60.00019105908058,
-				"long": 99.99901117715314,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999972065062785,
+				"long": 99.99997206506279
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99901117715314,
-					60.00019105908058
+					99.99997206506279,
+					59.999972065062785
 				]
 			}
 		},
@@ -1888,16 +1839,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "EG",
-				"lat": 26.99919379542686,
-				"long": 29.999640309018652,
-				"name": "Egypt",
-				"countryName": "Egypt"
+				"countryName": "Egypt",
+				"lat": 26.99990152403701,
+				"long": 29.99990152403701
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					29.999640309018652,
-					26.99919379542686
+					29.99990152403701,
+					26.99990152403701
 				]
 			}
 		},
@@ -1926,16 +1876,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "KP",
-				"lat": 40.00042280712423,
-				"long": 126.99927911549807,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.999905849352395,
+				"long": 126.99990584935239
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99927911549807,
-					40.00042280712423
+					126.99990584935239,
+					39.999905849352395
 				]
 			}
 		},
@@ -1964,16 +1913,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.000485689467354,
-				"long": 104.99972139820825,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00008516327524,
+				"long": 105.00008516327523
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99972139820825,
-					35.000485689467354
+					105.00008516327523,
+					35.00008516327524
 				]
 			}
 		},
@@ -2002,16 +1950,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": null,
 				"iso2c": "KP",
-				"lat": 39.999720859166274,
-				"long": 126.99974911117407,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.99999401554728,
+				"long": 126.99999401554729
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99974911117407,
-					39.999720859166274
+					126.99999401554729,
+					39.99999401554728
 				]
 			}
 		},
@@ -2040,16 +1987,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KH",
-				"lat": 12.999840326314537,
-				"long": 105.00030807842448,
-				"name": "Cambodia",
-				"countryName": "Cambodia"
+				"countryName": "Cambodia",
+				"lat": 12.999972077127218,
+				"long": 104.99997207712721
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.00030807842448,
-					12.999840326314537
+					104.99997207712721,
+					12.999972077127218
 				]
 			}
 		},
@@ -2078,16 +2024,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.999673944394466,
-				"long": 99.99912793643367,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.0000503038245,
+				"long": 100.00005030382451
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99912793643367,
-					59.999673944394466
+					100.00005030382451,
+					60.0000503038245
 				]
 			}
 		},
@@ -2116,16 +2061,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.999113216413846,
-				"long": 99.9992777643676,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99994448098116,
+				"long": 99.99994448098116
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.9992777643676,
-					59.999113216413846
+					99.99994448098116,
+					59.99994448098116
 				]
 			}
 		},
@@ -2154,16 +2098,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 21.9992872029374,
-				"long": -79.50005060498059,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 22.000044393462122,
+				"long": -79.49995560653788
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50005060498059,
-					21.9992872029374
+					-79.49995560653788,
+					22.000044393462122
 				]
 			}
 		},
@@ -2192,16 +2135,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "CN",
-				"lat": 34.999265902991176,
-				"long": 104.99930741810304,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00004101895732,
+				"long": 105.00004101895732
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99930741810304,
-					34.999265902991176
+					105.00004101895732,
+					35.00004101895732
 				]
 			}
 		},
@@ -2230,16 +2172,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.999099449347995,
-				"long": 99.99912736153333,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999915576094985,
+				"long": 99.99991557609498
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99912736153333,
-					59.999099449347995
+					99.99991557609498,
+					59.999915576094985
 				]
 			}
 		},
@@ -2268,16 +2209,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KH",
-				"lat": 13.000089770397015,
-				"long": 104.9994556305436,
-				"name": "Cambodia",
-				"countryName": "Cambodia"
+				"countryName": "Cambodia",
+				"lat": 12.999931882947855,
+				"long": 104.99993188294786
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.9994556305436,
-					13.000089770397015
+					104.99993188294786,
+					12.999931882947855
 				]
 			}
 		},
@@ -2306,16 +2246,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.000811762447654,
-				"long": 127.00068150300983,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.9999137023219,
+				"long": 126.99991370232189
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.00068150300983,
-					40.000811762447654
+					126.99991370232189,
+					39.9999137023219
 				]
 			}
 		},
@@ -2344,16 +2283,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "CU",
-				"lat": 22.000777618117098,
-				"long": -79.50092460677995,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 21.99990257129924,
+				"long": -79.50009742870076
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50092460677995,
-					22.000777618117098
+					-79.50009742870076,
+					21.99990257129924
 				]
 			}
 		},
@@ -2382,16 +2320,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "LB",
-				"lat": 33.83361454523964,
-				"long": 35.83369949072409,
-				"name": "Lebanon",
-				"countryName": "Lebanon"
+				"countryName": "Lebanon",
+				"lat": 33.83332070763449,
+				"long": 35.83332070763449
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					35.83369949072409,
-					33.83361454523964
+					35.83332070763449,
+					33.83332070763449
 				]
 			}
 		},
@@ -2420,16 +2357,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "KP",
-				"lat": 39.99911975791666,
-				"long": 127.00083960568885,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.99990546976006,
+				"long": 126.99990546976007
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.00083960568885,
-					39.99911975791666
+					126.99990546976007,
+					39.99990546976006
 				]
 			}
 		},
@@ -2458,16 +2394,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.99923100857581,
-				"long": 126.9993843397794,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00002260939624,
+				"long": 127.00002260939624
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.9993843397794,
-					39.99923100857581
+					127.00002260939624,
+					40.00002260939624
 				]
 			}
 		},
@@ -2496,16 +2431,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CD",
-				"lat": -2.500733999089577,
-				"long": 23.499185559329266,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.500010620202114,
+				"long": 23.499989379797885
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.499185559329266,
-					-2.500733999089577
+					23.499989379797885,
+					-2.500010620202114
 				]
 			}
 		},
@@ -2534,16 +2468,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.99992754862521,
-				"long": 99.99920087184253,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.000083358874,
+				"long": 100.00008335887401
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99920087184253,
-					59.99992754862521
+					100.00008335887401,
+					60.000083358874
 				]
 			}
 		},
@@ -2572,16 +2505,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 22.00091811303377,
-				"long": -79.50036183898553,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 22.000094051336895,
+				"long": -79.4999059486631
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50036183898553,
-					22.00091811303377
+					-79.4999059486631,
+					22.000094051336895
 				]
 			}
 		},
@@ -2610,16 +2542,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.99915405535515,
-				"long": 126.99973846581939,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.000067180031714,
+				"long": 127.00006718003172
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99973846581939,
-					39.99915405535515
+					127.00006718003172,
+					40.000067180031714
 				]
 			}
 		},
@@ -2648,16 +2579,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 59.99940726312061,
-				"long": 100.00063957180765,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.00000707816078,
+				"long": 100.00000707816078
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00063957180765,
-					59.99940726312061
+					100.00000707816078,
+					60.00000707816078
 				]
 			}
 		},
@@ -2686,16 +2616,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.000894835472664,
-				"long": 52.999997601696094,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.000066327595704,
+				"long": 53.000066327595704
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					52.999997601696094,
-					32.000894835472664
+					53.000066327595704,
+					32.000066327595704
 				]
 			}
 		},
@@ -2724,16 +2653,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 59.99943547794974,
-				"long": 100.00026932600684,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.99994250239447,
+				"long": 99.99994250239448
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00026932600684,
-					59.99943547794974
+					99.99994250239448,
+					59.99994250239447
 				]
 			}
 		},
@@ -2762,16 +2690,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 21.99926100291246,
-				"long": -79.50014719346666,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 21.999924088891746,
+				"long": -79.50007591110825
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50014719346666,
-					21.99926100291246
+					-79.50007591110825,
+					21.999924088891746
 				]
 			}
 		},
@@ -2800,16 +2727,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LY",
-				"lat": 28.0001092522326,
-				"long": 17.00093028206134,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 28.000020675772415,
+				"long": 17.000020675772415
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.00093028206134,
-					28.0001092522326
+					17.000020675772415,
+					28.000020675772415
 				]
 			}
 		},
@@ -2838,10 +2764,9 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "SV",
+				"countryName": "El Salvador",
 				"lat": 13.83333,
-				"long": -88.91667,
-				"name": "El Salvador",
-				"countryName": "El Salvador"
+				"long": -88.91667
 			},
 			"geometry": {
 				"type": "Point",
@@ -2876,16 +2801,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "EG",
-				"lat": 26.99909140388066,
-				"long": 30.000754424510117,
-				"name": "Egypt",
-				"countryName": "Egypt"
+				"countryName": "Egypt",
+				"lat": 26.999946817406975,
+				"long": 29.999946817406975
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					30.000754424510117,
-					26.99909140388066
+					29.999946817406975,
+					26.999946817406975
 				]
 			}
 		},
@@ -2914,16 +2838,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "GR",
-				"lat": 39.000442231616276,
-				"long": 22.0009634796387,
-				"name": "Greece",
-				"countryName": "Greece"
+				"countryName": "Greece",
+				"lat": 38.99991727336501,
+				"long": 21.99991727336501
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					22.0009634796387,
-					39.000442231616276
+					21.99991727336501,
+					38.99991727336501
 				]
 			}
 		},
@@ -2952,16 +2875,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "NI",
-				"lat": 12.999348894868092,
-				"long": -84.99997782867464,
-				"name": "Nicaragua",
-				"countryName": "Nicaragua"
+				"countryName": "Nicaragua",
+				"lat": 13.000071307463665,
+				"long": -84.99992869253633
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-84.99997782867464,
-					12.999348894868092
+					-84.99992869253633,
+					13.000071307463665
 				]
 			}
 		},
@@ -2990,16 +2912,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 60.00063946231405,
-				"long": 100.00040877863421,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.00007290166598,
+				"long": 100.00007290166597
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.00040877863421,
-					60.00063946231405
+					100.00007290166597,
+					60.00007290166598
 				]
 			}
 		},
@@ -3028,16 +2949,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "LB",
-				"lat": 33.834073649597435,
-				"long": 35.83403651525518,
-				"name": "Lebanon",
-				"countryName": "Lebanon"
+				"countryName": "Lebanon",
+				"lat": 33.833293784156524,
+				"long": 35.833293784156524
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					35.83403651525518,
-					33.834073649597435
+					35.833293784156524,
+					33.833293784156524
 				]
 			}
 		},
@@ -3066,16 +2986,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 22.000333483105805,
-				"long": -79.50021186970866,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 21.99995125451434,
+				"long": -79.50004874548566
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50021186970866,
-					22.000333483105805
+					-79.50004874548566,
+					21.99995125451434
 				]
 			}
 		},
@@ -3104,16 +3023,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "GD",
-				"lat": 12.11667,
-				"long": -61.66667,
-				"name": "Grenada",
-				"countryName": "Grenada"
+				"countryName": "Grenada",
+				"lat": 37.18817,
+				"long": -3.60667
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-61.66667,
-					12.11667
+					-3.60667,
+					37.18817
 				]
 			}
 		},
@@ -3142,16 +3060,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.00069013499544,
-				"long": 52.99922247329631,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.999989047466602,
+				"long": 52.999989047466606
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					52.99922247329631,
-					32.00069013499544
+					52.999989047466606,
+					31.999989047466602
 				]
 			}
 		},
@@ -3180,16 +3097,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "EG",
-				"lat": 27.000336420361048,
-				"long": 29.999536607630034,
-				"name": "Egypt",
-				"countryName": "Egypt"
+				"countryName": "Egypt",
+				"lat": 26.999992946552464,
+				"long": 29.999992946552464
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					29.999536607630034,
-					27.000336420361048
+					29.999992946552464,
+					26.999992946552464
 				]
 			}
 		},
@@ -3218,10 +3134,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "TD",
+				"countryName": "Chad",
 				"lat": 15.0,
-				"long": 19.0,
-				"name": "Chad",
-				"countryName": "Chad"
+				"long": 19.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -3256,16 +3171,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "NI",
-				"lat": 12.99974428025057,
-				"long": -85.00056650265212,
-				"name": "Nicaragua",
-				"countryName": "Nicaragua"
+				"countryName": "Nicaragua",
+				"lat": 13.00009735350532,
+				"long": -84.99990264649468
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-85.00056650265212,
-					12.99974428025057
+					-84.99990264649468,
+					13.00009735350532
 				]
 			}
 		},
@@ -3294,16 +3208,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.99938998001776,
-				"long": 127.00017165051922,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.0000201170948,
+				"long": 127.00002011709479
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.00017165051922,
-					39.99938998001776
+					127.00002011709479,
+					40.0000201170948
 				]
 			}
 		},
@@ -3332,16 +3245,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "RU",
-				"lat": 60.0007995820658,
-				"long": 99.99910545453123,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999962659838296,
+				"long": 99.99996265983829
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99910545453123,
-					60.0007995820658
+					99.99996265983829,
+					59.999962659838296
 				]
 			}
 		},
@@ -3370,16 +3282,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "EG",
-				"lat": 27.000482125261748,
-				"long": 30.000768955410035,
-				"name": "Egypt",
-				"countryName": "Egypt"
+				"countryName": "Egypt",
+				"lat": 27.000018343658382,
+				"long": 30.000018343658382
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					30.000768955410035,
-					27.000482125261748
+					30.000018343658382,
+					27.000018343658382
 				]
 			}
 		},
@@ -3408,16 +3319,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.00071289818171,
-				"long": 53.00012694446068,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.999996774398323,
+				"long": 52.999996774398326
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00012694446068,
-					32.00071289818171
+					52.999996774398326,
+					31.999996774398323
 				]
 			}
 		},
@@ -3446,16 +3356,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "LY",
-				"lat": 28.000699345729934,
-				"long": 17.00034309729305,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 27.99990795367593,
+				"long": 16.99990795367593
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.00034309729305,
-					28.000699345729934
+					16.99990795367593,
+					27.99990795367593
 				]
 			}
 		},
@@ -3484,16 +3393,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 31.999174875200136,
-				"long": 53.00067814429358,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.000047821173965,
+				"long": 53.000047821173965
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00067814429358,
-					31.999174875200136
+					53.000047821173965,
+					32.000047821173965
 				]
 			}
 		},
@@ -3522,10 +3430,9 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "IT",
+				"countryName": "Italy",
 				"lat": 42.83333,
-				"long": 12.83333,
-				"name": "Italy",
-				"countryName": "Italy"
+				"long": 12.83333
 			},
 			"geometry": {
 				"type": "Point",
@@ -3560,16 +3467,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LY",
-				"lat": 28.000079282853733,
-				"long": 17.000270705864935,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 27.999950459683546,
+				"long": 16.999950459683546
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.000270705864935,
-					28.000079282853733
+					16.999950459683546,
+					27.999950459683546
 				]
 			}
 		},
@@ -3598,16 +3504,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "BO",
-				"lat": -17.000060223904004,
-				"long": -65.00066852841125,
-				"name": "Bolivia",
-				"countryName": "Bolivia"
+				"countryName": "Bolivia",
+				"lat": -17.000036501718945,
+				"long": -65.00003650171895
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-65.00066852841125,
-					-17.000060223904004
+					-65.00003650171895,
+					-17.000036501718945
 				]
 			}
 		},
@@ -3636,16 +3541,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CU",
-				"lat": 22.00007973140163,
-				"long": -79.50030477786555,
-				"name": "Cuba",
-				"countryName": "Cuba"
+				"countryName": "Cuba",
+				"lat": 21.999997349925795,
+				"long": -79.50000265007421
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-79.50030477786555,
-					22.00007973140163
+					-79.50000265007421,
+					21.999997349925795
 				]
 			}
 		},
@@ -3674,16 +3578,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 31.999504070802534,
-				"long": 53.00096092348926,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.00006959671626,
+				"long": 53.00006959671626
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00096092348926,
-					31.999504070802534
+					53.00006959671626,
+					32.00006959671626
 				]
 			}
 		},
@@ -3712,16 +3615,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LY",
-				"lat": 27.999567737751747,
-				"long": 17.00003412645716,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 27.99997479908111,
+				"long": 16.99997479908111
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.00003412645716,
-					27.999567737751747
+					16.99997479908111,
+					27.99997479908111
 				]
 			}
 		},
@@ -3750,16 +3652,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LY",
-				"lat": 28.00023969372877,
-				"long": 17.000754817328424,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 28.000075727583745,
+				"long": 17.000075727583745
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.000754817328424,
-					28.00023969372877
+					17.000075727583745,
+					28.000075727583745
 				]
 			}
 		},
@@ -3788,16 +3689,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 32.99994466081507,
-				"long": 43.9995677780318,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 32.99998123465634,
+				"long": 43.99998123465634
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.9995677780318,
-					32.99994466081507
+					43.99998123465634,
+					32.99998123465634
 				]
 			}
 		},
@@ -3826,16 +3726,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "PA",
-				"lat": 8.537981,
-				"long": -80.782127,
-				"name": "Panama",
-				"countryName": "Panama"
+				"countryName": "Panama",
+				"lat": 8.999978027584172,
+				"long": -80.00002197241582
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-80.782127,
-                    8.537981
+					-80.00002197241582,
+					8.999978027584172
 				]
 			}
 		},
@@ -3864,16 +3763,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "LY",
-				"lat": 28.000559526247635,
-				"long": 16.99924362419945,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 27.99998128746984,
+				"long": 16.99998128746984
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					16.99924362419945,
-					28.000559526247635
+					16.99998128746984,
+					27.99998128746984
 				]
 			}
 		},
@@ -3902,16 +3800,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CO",
-				"lat": 4.000884951390884,
-				"long": -73.25042360539112,
-				"name": "Colombia",
-				"countryName": "Colombia"
+				"countryName": "Colombia",
+				"lat": 4.000091235232873,
+				"long": -73.24990876476713
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-73.25042360539112,
-					4.000884951390884
+					-73.24990876476713,
+					4.000091235232873
 				]
 			}
 		},
@@ -3940,16 +3837,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "BO",
-				"lat": -16.999386028836838,
-				"long": -65.0005245520187,
-				"name": "Bolivia",
-				"countryName": "Bolivia"
+				"countryName": "Bolivia",
+				"lat": -16.999912840288108,
+				"long": -64.9999128402881
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-65.0005245520187,
-					-16.999386028836838
+					-64.9999128402881,
+					-16.999912840288108
 				]
 			}
 		},
@@ -3978,16 +3874,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "PE",
-				"lat": -9.999697582050686,
-				"long": -75.25088133919066,
-				"name": "Peru",
-				"countryName": "Peru"
+				"countryName": "Peru",
+				"lat": -10.000062805782658,
+				"long": -75.25006280578266
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-75.25088133919066,
-					-9.999697582050686
+					-75.25006280578266,
+					-10.000062805782658
 				]
 			}
 		},
@@ -4016,16 +3911,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "PA",
-				"lat": 8.537981,
-				"long": -80.782127,
-				"name": "Panama",
-				"countryName": "Panama"
+				"countryName": "Panama",
+				"lat": 8.999975050673084,
+				"long": -80.00002494932691
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-80.782127,
-                    8.537981
+					-80.00002494932691,
+					8.999975050673084
 				]
 			}
 		},
@@ -4054,16 +3948,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PH",
-				"lat": 12.999861329173568,
-				"long": 121.99904306539065,
-				"name": "Philippines",
-				"countryName": "Philippines"
+				"countryName": "Philippines",
+				"lat": 12.999936975915329,
+				"long": 121.99993697591533
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.99904306539065,
-					12.999861329173568
+					121.99993697591533,
+					12.999936975915329
 				]
 			}
 		},
@@ -4092,16 +3985,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LR",
-				"lat": 6.4995266295088365,
-				"long": -9.500637682711229,
-				"name": "Liberia",
-				"countryName": "Liberia"
+				"countryName": "Liberia",
+				"lat": 6.50008215035119,
+				"long": -9.49991784964881
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-9.500637682711229,
-					6.4995266295088365
+					-9.49991784964881,
+					6.50008215035119
 				]
 			}
 		},
@@ -4130,16 +4022,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "SA",
-				"lat": 25.000657445871354,
-				"long": 45.00088643772029,
-				"name": "Saudi Arabia",
-				"countryName": "Saudi Arabia"
+				"countryName": "Saudi Arabia",
+				"lat": 25.000039888671562,
+				"long": 45.00003988867156
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					45.00088643772029,
-					25.000657445871354
+					45.00003988867156,
+					25.000039888671562
 				]
 			}
 		},
@@ -4168,16 +4059,15 @@
 				"UNRegT": "N. America",
 				"PresElectionYear": 0.0,
 				"iso2c": "CA",
-				"lat": 54.286287,
-				"long": -132.834373,
-				"name": "Canada",
-				"countryName": "Canada"
+				"countryName": "Canada",
+				"lat": 60.10867,
+				"long": -113.64258
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-132.834373,
-                    54.286287
+					-113.64258,
+					60.10867
 				]
 			}
 		},
@@ -4206,16 +4096,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CD",
-				"lat": -2.5006783450516186,
-				"long": 23.499515715240314,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.499979740432049,
+				"long": 23.50002025956795
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.499515715240314,
-					-2.5006783450516186
+					23.50002025956795,
+					-2.499979740432049
 				]
 			}
 		},
@@ -4244,16 +4133,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.00029088054958,
-				"long": 53.0008743752545,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.000076702328165,
+				"long": 53.000076702328165
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.0008743752545,
-					32.00029088054958
+					53.000076702328165,
+					32.000076702328165
 				]
 			}
 		},
@@ -4282,16 +4170,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "IQ",
-				"lat": 33.00048293199562,
-				"long": 44.00036735924397,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 32.999943280803265,
+				"long": 43.999943280803265
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					44.00036735924397,
-					33.00048293199562
+					43.999943280803265,
+					32.999943280803265
 				]
 			}
 		},
@@ -4320,16 +4207,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 32.99922535940932,
-				"long": 43.9991001788907,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 32.99998441335749,
+				"long": 43.99998441335749
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.9991001788907,
-					32.99922535940932
+					43.99998441335749,
+					32.99998441335749
 				]
 			}
 		},
@@ -4358,16 +4244,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "SO",
-				"lat": 6.000516440774022,
-				"long": 48.00017521029404,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 5.999962966702979,
+				"long": 47.99996296670298
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					48.00017521029404,
-					6.000516440774022
+					47.99996296670298,
+					5.999962966702979
 				]
 			}
 		},
@@ -4396,16 +4281,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "PE",
-				"lat": -10.000063480367773,
-				"long": -75.24989785421674,
-				"name": "Peru",
-				"countryName": "Peru"
+				"countryName": "Peru",
+				"lat": -10.000085528520756,
+				"long": -75.25008552852076
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-75.24989785421674,
-					-10.000063480367773
+					-75.25008552852076,
+					-10.000085528520756
 				]
 			}
 		},
@@ -4434,16 +4318,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "SL",
-				"lat": 8.500941608027292,
-				"long": -11.49991533080921,
-				"name": "Sierra Leone",
-				"countryName": "Sierra Leone"
+				"countryName": "Sierra Leone",
+				"lat": 8.500016773447026,
+				"long": -11.499983226552974
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-11.49991533080921,
-					8.500941608027292
+					-11.499983226552974,
+					8.500016773447026
 				]
 			}
 		},
@@ -4472,16 +4355,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "SO",
-				"lat": 6.000346916502409,
-				"long": 47.99935356210688,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 6.000076347607406,
+				"long": 48.000076347607404
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.99935356210688,
-					6.000346916502409
+					48.000076347607404,
+					6.000076347607406
 				]
 			}
 		},
@@ -4510,16 +4392,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "SO",
-				"lat": 5.999629669057613,
-				"long": 47.99917065922553,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 6.000002752358976,
+				"long": 48.000002752358974
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.99917065922553,
-					5.999629669057613
+					48.000002752358974,
+					6.000002752358976
 				]
 			}
 		},
@@ -4548,16 +4429,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "YU",
-				"lat": 43.850439874742,
-				"long": 18.199636349689676,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.85007979094599,
+				"long": 18.200079790945985
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.199636349689676,
-					43.850439874742
+					18.200079790945985,
+					43.85007979094599
 				]
 			}
 		},
@@ -4586,16 +4466,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "BA",
-				"lat": -36.0,
-				"long": -60.0,
-				"name": "Bosnia and Herzegovina",
-				"countryName": "Bosnia and Herzegovina"
+				"countryName": "Bosnia and Herzegovina",
+				"lat": 44.25,
+				"long": 17.83333
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-60.0,
-					-36.0
+					17.83333,
+					44.25
 				]
 			}
 		},
@@ -4624,10 +4503,9 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "MK",
+				"countryName": "North Macedonia",
 				"lat": 41.66667,
-				"long": 21.75,
-				"name": "North Macedonia",
-				"countryName": "North Macedonia"
+				"long": 21.75
 			},
 			"geometry": {
 				"type": "Point",
@@ -4662,16 +4540,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.999231343833586,
-				"long": 127.00051873898512,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00009530011275,
+				"long": 127.00009530011275
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.00051873898512,
-					39.999231343833586
+					127.00009530011275,
+					40.00009530011275
 				]
 			}
 		},
@@ -4700,16 +4577,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.000509830633916,
-				"long": 126.9993830615293,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00000995033813,
+				"long": 127.00000995033813
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.9993830615293,
-					40.000509830633916
+					127.00000995033813,
+					40.00000995033813
 				]
 			}
 		},
@@ -4738,16 +4614,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "SO",
-				"lat": 6.00092414507821,
-				"long": 48.000179555472876,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 5.999954313737038,
+				"long": 47.999954313737035
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					48.000179555472876,
-					6.00092414507821
+					47.999954313737035,
+					5.999954313737038
 				]
 			}
 		},
@@ -4776,16 +4651,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CD",
-				"lat": -2.50026693159325,
-				"long": 23.499101674533758,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.500050119810951,
+				"long": 23.49994988018905
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.499101674533758,
-					-2.50026693159325
+					23.49994988018905,
+					-2.500050119810951
 				]
 			}
 		},
@@ -4814,16 +4688,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "HT",
-				"lat": 19.000039986387097,
-				"long": -72.41628377391,
-				"name": "Haiti",
-				"countryName": "Haiti"
+				"countryName": "Haiti",
+				"lat": 19.000069193822362,
+				"long": -72.41660080617763
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-72.41628377391,
-					19.000039986387097
+					-72.41660080617763,
+					19.000069193822362
 				]
 			}
 		},
@@ -4852,10 +4725,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "RW",
+				"countryName": "Rwanda",
 				"lat": -2.0,
-				"long": 30.0,
-				"name": "Rwanda",
-				"countryName": "Rwanda"
+				"long": 30.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -4890,16 +4762,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 34.999481985048654,
-				"long": 104.99903863946821,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.000042243283985,
+				"long": 105.00004224328399
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99903863946821,
-					34.999481985048654
+					105.00004224328399,
+					35.000042243283985
 				]
 			}
 		},
@@ -4928,16 +4799,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "CF",
-				"lat": 6.999923813958765,
-				"long": 20.99907651401158,
-				"name": "Central African Republic",
-				"countryName": "Central African Republic"
+				"countryName": "Central African Republic",
+				"lat": 7.000016558093906,
+				"long": 21.000016558093904
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					20.99907651401158,
-					6.999923813958765
+					21.000016558093904,
+					7.000016558093906
 				]
 			}
 		},
@@ -4966,16 +4836,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "LR",
-				"lat": 6.499477700990395,
-				"long": -9.500532793381549,
-				"name": "Liberia",
-				"countryName": "Liberia"
+				"countryName": "Liberia",
+				"lat": 6.500088180669417,
+				"long": -9.499911819330583
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-9.500532793381549,
-					6.499477700990395
+					-9.499911819330583,
+					6.500088180669417
 				]
 			}
 		},
@@ -5004,16 +4873,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "AL",
-				"lat": 41.153332,
-				"long": 20.168331,
-				"name": "Albania",
-				"countryName": "Albania"
+				"countryName": "Albania",
+				"lat": 41.0,
+				"long": 20.0
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					20.168331,
-                    41.153332
+					20.0,
+					41.0
 				]
 			}
 		},
@@ -5042,16 +4910,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KH",
-				"lat": 12.999859863112235,
-				"long": 104.99941778620929,
-				"name": "Cambodia",
-				"countryName": "Cambodia"
+				"countryName": "Cambodia",
+				"lat": 12.999930030654115,
+				"long": 104.99993003065411
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.99941778620929,
-					12.999859863112235
+					104.99993003065411,
+					12.999930030654115
 				]
 			}
 		},
@@ -5080,16 +4947,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CD",
-				"lat": -2.499782804577744,
-				"long": 23.500817766649632,
-				"name": "DR Congo",
-				"countryName": "DR Congo"
+				"countryName": "DR Congo",
+				"lat": -2.4999470264333707,
+				"long": 23.50005297356663
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					23.500817766649632,
-					-2.499782804577744
+					23.50005297356663,
+					-2.4999470264333707
 				]
 			}
 		},
@@ -5118,16 +4984,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 31.999569342913407,
-				"long": 52.99938252009197,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.999917940620662,
+				"long": 52.99991794062066
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					52.99938252009197,
-					31.999569342913407
+					52.99991794062066,
+					31.999917940620662
 				]
 			}
 		},
@@ -5156,16 +5021,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "SL",
-				"lat": 8.500875225753823,
-				"long": -11.499585470593214,
-				"name": "Sierra Leone",
-				"countryName": "Sierra Leone"
+				"countryName": "Sierra Leone",
+				"lat": 8.499978546904984,
+				"long": -11.500021453095016
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-11.499585470593214,
-					8.500875225753823
+					-11.500021453095016,
+					8.499978546904984
 				]
 			}
 		},
@@ -5194,16 +5058,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "AF",
-				"lat": 32.999944250449516,
-				"long": 66.0007226601373,
-				"name": "Afghanistan",
-				"countryName": "Afghanistan"
+				"countryName": "Afghanistan",
+				"lat": 32.99997355363756,
+				"long": 65.99997355363756
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					66.0007226601373,
-					32.999944250449516
+					65.99997355363756,
+					32.99997355363756
 				]
 			}
 		},
@@ -5232,10 +5095,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "GW",
+				"countryName": "Guinea-Bissau",
 				"lat": 12.0,
-				"long": -15.0,
-				"name": "Guinea-Bissau",
-				"countryName": "Guinea-Bissau"
+				"long": -15.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -5270,16 +5132,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "KE",
-				"lat": 1.0003690164580237,
-				"long": 37.999066278899406,
-				"name": "Kenya",
-				"countryName": "Kenya"
+				"countryName": "Kenya",
+				"lat": 1.0000887674791217,
+				"long": 38.00008876747912
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					37.999066278899406,
-					1.0003690164580237
+					38.00008876747912,
+					1.0000887674791217
 				]
 			}
 		},
@@ -5308,10 +5169,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "TZ",
+				"countryName": "Tanzania",
 				"lat": -6.0,
-				"long": 35.0,
-				"name": "Tanzania",
-				"countryName": "Tanzania"
+				"long": 35.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -5346,16 +5206,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LR",
-				"lat": 6.5004495051607325,
-				"long": -9.499892041577695,
-				"name": "Liberia",
-				"countryName": "Liberia"
+				"countryName": "Liberia",
+				"lat": 6.499953043682578,
+				"long": -9.500046956317421
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-9.499892041577695,
-					6.5004495051607325
+					-9.500046956317421,
+					6.499953043682578
 				]
 			}
 		},
@@ -5384,16 +5243,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "SD",
-				"lat": 15.99964555609774,
-				"long": 29.99947427191394,
-				"name": "Sudan",
-				"countryName": "Sudan"
+				"countryName": "Sudan",
+				"lat": 16.000054524690093,
+				"long": 30.000054524690093
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					29.99947427191394,
-					15.99964555609774
+					30.000054524690093,
+					16.000054524690093
 				]
 			}
 		},
@@ -5422,16 +5280,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 34.999823553267454,
-				"long": 105.00072133545973,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 34.9999247959545,
+				"long": 104.9999247959545
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.00072133545973,
-					34.999823553267454
+					104.9999247959545,
+					34.9999247959545
 				]
 			}
 		},
@@ -5460,10 +5317,9 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TL",
+				"countryName": "Timor-Leste",
 				"lat": -8.83333,
-				"long": 125.75,
-				"name": "Timor-Leste",
-				"countryName": "Timor-Leste"
+				"long": 125.75
 			},
 			"geometry": {
 				"type": "Point",
@@ -5498,16 +5354,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.000397271554036,
-				"long": 126.99991437470953,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.99992232833591,
+				"long": 126.99992232833591
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99991437470953,
-					40.000397271554036
+					126.99992232833591,
+					39.99992232833591
 				]
 			}
 		},
@@ -5536,16 +5391,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "VE",
-				"lat": 7.999098400340658,
-				"long": -65.99929234810249,
-				"name": "Venezuela",
-				"countryName": "Venezuela"
+				"countryName": "Venezuela",
+				"lat": 7.999913715261052,
+				"long": -66.00008628473894
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-65.99929234810249,
-					7.999098400340658
+					-66.00008628473894,
+					7.999913715261052
 				]
 			}
 		},
@@ -5574,16 +5428,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "YU",
-				"lat": 43.85031923648173,
-				"long": 18.19910825742473,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.85002234675509,
+				"long": 18.200022346755087
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.19910825742473,
-					43.85031923648173
+					18.200022346755087,
+					43.85002234675509
 				]
 			}
 		},
@@ -5612,10 +5465,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "ER",
+				"countryName": "Eritrea",
 				"lat": 15.0,
-				"long": 39.0,
-				"name": "Eritrea",
-				"countryName": "Eritrea"
+				"long": 39.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -5650,16 +5502,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 59.99934131551263,
-				"long": 99.99973049370875,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 60.00000664345437,
+				"long": 100.00000664345437
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99973049370875,
-					59.99934131551263
+					100.00000664345437,
+					60.00000664345437
 				]
 			}
 		},
@@ -5688,16 +5539,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "RU",
-				"lat": 60.000667546868804,
-				"long": 99.99928598511215,
-				"name": "Russia",
-				"countryName": "Russia"
+				"countryName": "Russia",
+				"lat": 59.999976798481185,
+				"long": 99.99997679848119
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					99.99928598511215,
-					60.000667546868804
+					99.99997679848119,
+					59.999976798481185
 				]
 			}
 		},
@@ -5726,16 +5576,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "SL",
-				"lat": 8.500438488200409,
-				"long": -11.499948462840162,
-				"name": "Sierra Leone",
-				"countryName": "Sierra Leone"
+				"countryName": "Sierra Leone",
+				"lat": 8.499953442680182,
+				"long": -11.500046557319818
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-11.499948462840162,
-					8.500438488200409
+					-11.500046557319818,
+					8.499953442680182
 				]
 			}
 		},
@@ -5764,16 +5613,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "YE",
-				"lat": 15.499770400904072,
-				"long": 47.50014868733327,
-				"name": "Yemen",
-				"countryName": "Yemen"
+				"countryName": "Yemen",
+				"lat": 15.499905602368035,
+				"long": 47.49990560236804
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.50014868733327,
-					15.499770400904072
+					47.49990560236804,
+					15.499905602368035
 				]
 			}
 		},
@@ -5802,16 +5650,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "YU",
-				"lat": 43.85070860069355,
-				"long": 18.19914274633711,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.850093375557215,
+				"long": 18.20009337555721
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.19914274633711,
-					43.85070860069355
+					18.20009337555721,
+					43.850093375557215
 				]
 			}
 		},
@@ -5840,16 +5687,15 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 1.0,
 				"iso2c": "YU",
-				"lat": 43.85085179707476,
-				"long": 18.20058486442334,
-				"name": "Yugoslavia",
-				"countryName": "Yugoslavia"
+				"countryName": "Yugoslavia",
+				"lat": 43.85001872013347,
+				"long": 18.200018720133468
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					18.20058486442334,
-					43.85085179707476
+					18.200018720133468,
+					43.85001872013347
 				]
 			}
 		},
@@ -5878,16 +5724,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "AF",
-				"lat": 32.999261178264796,
-				"long": 66.0003389379882,
-				"name": "Afghanistan",
-				"countryName": "Afghanistan"
+				"countryName": "Afghanistan",
+				"lat": 32.99999534020941,
+				"long": 65.99999534020941
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					66.0003389379882,
-					32.999261178264796
+					65.99999534020941,
+					32.99999534020941
 				]
 			}
 		},
@@ -5916,16 +5761,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 34.99986671233861,
-				"long": 104.9995209817374,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00005317899158,
+				"long": 105.00005317899158
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.9995209817374,
-					34.99986671233861
+					105.00005317899158,
+					35.00005317899158
 				]
 			}
 		},
@@ -5954,16 +5798,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.00047702587864,
-				"long": 105.00021803455678,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00000805953292,
+				"long": 105.00000805953292
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					105.00021803455678,
-					35.00047702587864
+					105.00000805953292,
+					35.00000805953292
 				]
 			}
 		},
@@ -5992,10 +5835,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CI",
+				"countryName": "Ivory Coast",
 				"lat": 8.0,
-				"long": -5.5,
-				"name": "Ivory Coast",
-				"countryName": "Ivory Coast"
+				"long": -5.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -6030,16 +5872,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CO",
-				"lat": 3.9992914576104903,
-				"long": -73.24993188576728,
-				"name": "Colombia",
-				"countryName": "Colombia"
+				"countryName": "Colombia",
+				"lat": 4.000048426230927,
+				"long": -73.24995157376907
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-73.24993188576728,
-					3.9992914576104903
+					-73.24995157376907,
+					4.000048426230927
 				]
 			}
 		},
@@ -6068,10 +5909,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "DJ",
+				"countryName": "Djibouti",
 				"lat": 11.83333,
-				"long": 42.5,
-				"name": "Djibouti",
-				"countryName": "Djibouti"
+				"long": 42.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -6106,16 +5946,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 29.99924969752899,
-				"long": 69.99949624395396,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 29.999917131295373,
+				"long": 69.99991713129538
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.99949624395396,
-					29.99924969752899
+					69.99991713129538,
+					29.999917131295373
 				]
 			}
 		},
@@ -6144,16 +5983,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PH",
-				"lat": 12.999230639738684,
-				"long": 122.00034108326746,
-				"name": "Philippines",
-				"countryName": "Philippines"
+				"countryName": "Philippines",
+				"lat": 13.00006980168233,
+				"long": 122.00006980168233
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					122.00034108326746,
-					12.999230639738684
+					122.00006980168233,
+					13.00006980168233
 				]
 			}
 		},
@@ -6182,10 +6020,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "ET",
+				"countryName": "Ethiopia",
 				"lat": 9.0,
-				"long": 39.5,
-				"name": "Ethiopia",
-				"countryName": "Ethiopia"
+				"long": 39.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -6220,10 +6057,9 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "ID",
+				"countryName": "Indonesia",
 				"lat": -5.0,
-				"long": 120.0,
-				"name": "Indonesia",
-				"countryName": "Indonesia"
+				"long": 120.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -6258,16 +6094,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.000034740448754,
-				"long": 53.00014106962661,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.000033701647155,
+				"long": 53.000033701647155
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00014106962661,
-					32.000034740448754
+					53.000033701647155,
+					32.000033701647155
 				]
 			}
 		},
@@ -6296,16 +6131,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 32.99959622774315,
-				"long": 43.999419746448,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 32.99993291036252,
+				"long": 43.99993291036252
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.999419746448,
-					32.99959622774315
+					43.99993291036252,
+					32.99993291036252
 				]
 			}
 		},
@@ -6334,16 +6168,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LR",
-				"lat": 6.500767812966448,
-				"long": -9.499076718622362,
-				"name": "Liberia",
-				"countryName": "Liberia"
+				"countryName": "Liberia",
+				"lat": 6.4999858947994475,
+				"long": -9.500014105200552
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-9.499076718622362,
-					6.500767812966448
+					-9.500014105200552,
+					6.4999858947994475
 				]
 			}
 		},
@@ -6372,16 +6205,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 40.00084563146061,
-				"long": 126.99964758615937,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 39.999953485141965,
+				"long": 126.99995348514197
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99964758615937,
-					40.00084563146061
+					126.99995348514197,
+					39.999953485141965
 				]
 			}
 		},
@@ -6410,10 +6242,9 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TR",
+				"countryName": "T\u00fcrkiye",
 				"lat": 39.0,
-				"long": 35.0,
-				"name": "T\u00fcrkiye",
-				"countryName": "T\u00fcrkiye"
+				"long": 35.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -6448,16 +6279,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "HT",
-				"lat": 19.00095670414127,
-				"long": -72.41642550924685,
-				"name": "Haiti",
-				"countryName": "Haiti"
+				"countryName": "Haiti",
+				"lat": 19.000028600368154,
+				"long": -72.41664139963184
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-72.41642550924685,
-					19.00095670414127
+					-72.41664139963184,
+					19.000028600368154
 				]
 			}
 		},
@@ -6486,16 +6316,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "IR",
-				"lat": 31.99997594254391,
-				"long": 52.999363293710296,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.999900033475,
+				"long": 52.999900033475
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					52.999363293710296,
-					31.99997594254391
+					52.999900033475,
+					31.999900033475
 				]
 			}
 		},
@@ -6524,16 +6353,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "IR",
-				"lat": 32.000651366363776,
-				"long": 53.00085324673091,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.00007338809949,
+				"long": 53.00007338809949
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00085324673091,
-					32.000651366363776
+					53.00007338809949,
+					32.00007338809949
 				]
 			}
 		},
@@ -6562,16 +6390,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "KE",
-				"lat": 1.000008020869555,
-				"long": 38.00009099104786,
-				"name": "Kenya",
-				"countryName": "Kenya"
+				"countryName": "Kenya",
+				"lat": 1.0000816809983173,
+				"long": 38.00008168099832
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					38.00009099104786,
-					1.000008020869555
+					38.00008168099832,
+					1.0000816809983173
 				]
 			}
 		},
@@ -6600,16 +6427,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "KP",
-				"lat": 39.99900535327944,
-				"long": 126.99990848246419,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00009390906315,
+				"long": 127.00009390906315
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99990848246419,
-					39.99900535327944
+					127.00009390906315,
+					40.00009390906315
 				]
 			}
 		},
@@ -6638,16 +6464,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "SY",
-				"lat": 34.99919531924651,
-				"long": 37.99947646894338,
-				"name": "Syria",
-				"countryName": "Syria"
+				"countryName": "Syria",
+				"lat": 35.00004532173987,
+				"long": 38.00004532173987
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					37.99947646894338,
-					34.99919531924651
+					38.00004532173987,
+					35.00004532173987
 				]
 			}
 		},
@@ -6676,16 +6501,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 29.999855908446627,
-				"long": 70.00024140551339,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 29.999908012566564,
+				"long": 69.99990801256656
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					70.00024140551339,
-					29.999855908446627
+					69.99990801256656,
+					29.999908012566564
 				]
 			}
 		},
@@ -6714,16 +6538,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 30.000824635129725,
-				"long": 70.00061231794797,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 30.000062413920748,
+				"long": 70.00006241392074
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					70.00061231794797,
-					30.000824635129725
+					70.00006241392074,
+					30.000062413920748
 				]
 			}
 		},
@@ -6752,16 +6575,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 30.00057406843348,
-				"long": 69.99990356878524,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 29.99993807713654,
+				"long": 69.99993807713655
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.99990356878524,
-					30.00057406843348
+					69.99993807713655,
+					29.99993807713654
 				]
 			}
 		},
@@ -6790,16 +6612,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "SY",
-				"lat": 34.99901553365354,
-				"long": 37.99966624735804,
-				"name": "Syria",
-				"countryName": "Syria"
+				"countryName": "Syria",
+				"lat": 35.00006661727476,
+				"long": 38.00006661727476
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					37.99966624735804,
-					34.99901553365354
+					38.00006661727476,
+					35.00006661727476
 				]
 			}
 		},
@@ -6828,16 +6649,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "YE",
-				"lat": 15.500059809176962,
-				"long": 47.50035464304397,
-				"name": "Yemen",
-				"countryName": "Yemen"
+				"countryName": "Yemen",
+				"lat": 15.500098991732376,
+				"long": 47.50009899173237
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.50035464304397,
-					15.500059809176962
+					47.50009899173237,
+					15.500098991732376
 				]
 			}
 		},
@@ -6866,16 +6686,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "LB",
-				"lat": 33.834129622522006,
-				"long": 35.832927162970044,
-				"name": "Lebanon",
-				"countryName": "Lebanon"
+				"countryName": "Lebanon",
+				"lat": 33.83336813348438,
+				"long": 35.83336813348438
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					35.832927162970044,
-					33.834129622522006
+					35.83336813348438,
+					33.83336813348438
 				]
 			}
 		},
@@ -6904,16 +6723,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 30.000666614162686,
-				"long": 69.99935369958621,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 30.000047265313913,
+				"long": 70.00004726531391
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.99935369958621,
-					30.000666614162686
+					70.00004726531391,
+					30.000047265313913
 				]
 			}
 		},
@@ -6942,16 +6760,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "SO",
-				"lat": 5.999789892459929,
-				"long": 48.00008711809004,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 5.999934639542443,
+				"long": 47.999934639542445
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					48.00008711809004,
-					5.999789892459929
+					47.999934639542445,
+					5.999934639542443
 				]
 			}
 		},
@@ -6980,16 +6797,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 31.999093249805792,
-				"long": 53.00087504473384,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.99999465111162,
+				"long": 52.99999465111162
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00087504473384,
-					31.999093249805792
+					52.99999465111162,
+					31.99999465111162
 				]
 			}
 		},
@@ -7018,16 +6834,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.0002300379424,
-				"long": 53.00063407017126,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 31.99997547903282,
+				"long": 52.99997547903282
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					53.00063407017126,
-					32.0002300379424
+					52.99997547903282,
+					31.99997547903282
 				]
 			}
 		},
@@ -7056,16 +6871,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "PK",
-				"lat": 29.99992967503129,
-				"long": 69.99932566625999,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 29.999945516511477,
+				"long": 69.99994551651147
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.99932566625999,
-					29.99992967503129
+					69.99994551651147,
+					29.999945516511477
 				]
 			}
 		},
@@ -7094,16 +6908,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 30.00086342440423,
-				"long": 69.9996893184798,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 30.000060642827883,
+				"long": 70.00006064282788
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.9996893184798,
-					30.00086342440423
+					70.00006064282788,
+					30.000060642827883
 				]
 			}
 		},
@@ -7132,16 +6945,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "SY",
-				"lat": 35.00010566398023,
-				"long": 37.999657248499986,
-				"name": "Syria",
-				"countryName": "Syria"
+				"countryName": "Syria",
+				"lat": 34.99991949707129,
+				"long": 37.99991949707129
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					37.999657248499986,
-					35.00010566398023
+					37.99991949707129,
+					34.99991949707129
 				]
 			}
 		},
@@ -7170,16 +6982,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "CN",
-				"lat": 35.00032136343084,
-				"long": 104.9999389718955,
-				"name": "China",
-				"countryName": "China"
+				"countryName": "China",
+				"lat": 35.00005533252672,
+				"long": 105.00005533252671
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					104.9999389718955,
-					35.00032136343084
+					105.00005533252671,
+					35.00005533252672
 				]
 			}
 		},
@@ -7208,16 +7019,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IR",
-				"lat": 32.00037652113187,
-				"long": 52.999177392620616,
-				"name": "Iran",
-				"countryName": "Iran"
+				"countryName": "Iran",
+				"lat": 32.00008246746059,
+				"long": 53.00008246746059
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					52.999177392620616,
-					32.00037652113187
+					53.00008246746059,
+					32.00008246746059
 				]
 			}
 		},
@@ -7246,16 +7056,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "KP",
-				"lat": 39.99987524258115,
-				"long": 126.99961839055213,
-				"name": "North Korea",
-				"countryName": "North Korea"
+				"countryName": "North Korea",
+				"lat": 40.00007344158478,
+				"long": 127.00007344158479
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.99961839055213,
-					39.99987524258115
+					127.00007344158479,
+					40.00007344158478
 				]
 			}
 		},
@@ -7284,16 +7093,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "YE",
-				"lat": 15.500813549373255,
-				"long": 47.5001151861777,
-				"name": "Yemen",
-				"countryName": "Yemen"
+				"countryName": "Yemen",
+				"lat": 15.49999097046957,
+				"long": 47.49999097046957
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.5001151861777,
-					15.500813549373255
+					47.49999097046957,
+					15.49999097046957
 				]
 			}
 		},
@@ -7322,16 +7130,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "PK",
-				"lat": 30.0001229870209,
-				"long": 69.99985094840078,
-				"name": "Pakistan",
-				"countryName": "Pakistan"
+				"countryName": "Pakistan",
+				"lat": 30.000044167218356,
+				"long": 70.00004416721835
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					69.99985094840078,
-					30.0001229870209
+					70.00004416721835,
+					30.000044167218356
 				]
 			}
 		},
@@ -7360,16 +7167,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "VE",
-				"lat": 8.000881490063088,
-				"long": -65.99967762301462,
-				"name": "Venezuela",
-				"countryName": "Venezuela"
+				"countryName": "Venezuela",
+				"lat": 7.999927552328752,
+				"long": -66.00007244767124
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-65.99967762301462,
-					8.000881490063088
+					-66.00007244767124,
+					7.999927552328752
 				]
 			}
 		},
@@ -7398,16 +7204,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LY",
-				"lat": 27.999361052592754,
-				"long": 16.999933975071475,
-				"name": "Libya",
-				"countryName": "Libya"
+				"countryName": "Libya",
+				"lat": 28.000018328626762,
+				"long": 17.000018328626762
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					16.999933975071475,
-					27.999361052592754
+					17.000018328626762,
+					28.000018328626762
 				]
 			}
 		},
@@ -7436,10 +7241,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "UG",
+				"countryName": "Uganda",
 				"lat": 1.25,
-				"long": 32.5,
-				"name": "Uganda",
-				"countryName": "Uganda"
+				"long": 32.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -7474,16 +7278,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "PH",
-				"lat": 12.999326446322227,
-				"long": 122.00036348814166,
-				"name": "Philippines",
-				"countryName": "Philippines"
+				"countryName": "Philippines",
+				"lat": 13.000040022407088,
+				"long": 122.00004002240709
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					122.00036348814166,
-					12.999326446322227
+					122.00004002240709,
+					13.000040022407088
 				]
 			}
 		},
@@ -7512,16 +7315,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 1.0,
 				"iso2c": "SO",
-				"lat": 5.999023025999024,
-				"long": 48.000133798404654,
-				"name": "Somalia",
-				"countryName": "Somalia"
+				"countryName": "Somalia",
+				"lat": 6.0000891860601895,
+				"long": 48.00008918606019
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					48.000133798404654,
-					5.999023025999024
+					48.00008918606019,
+					6.0000891860601895
 				]
 			}
 		},
@@ -7550,16 +7352,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CF",
-				"lat": 6.9994125505427505,
-				"long": 20.99903158096008,
-				"name": "Central African Republic",
-				"countryName": "Central African Republic"
+				"countryName": "Central African Republic",
+				"lat": 6.999985758705589,
+				"long": 20.999985758705588
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					20.99903158096008,
-					6.9994125505427505
+					20.999985758705588,
+					6.999985758705589
 				]
 			}
 		},
@@ -7588,10 +7389,9 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "JO",
+				"countryName": "Jordan",
 				"lat": 31.0,
-				"long": 36.0,
-				"name": "Jordan",
-				"countryName": "Jordan"
+				"long": 36.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -7626,10 +7426,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "NE",
+				"countryName": "Niger",
 				"lat": 18.0,
-				"long": 9.0,
-				"name": "Niger",
-				"countryName": "Niger"
+				"long": 9.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -7664,16 +7463,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 33.00062883697703,
-				"long": 43.99921154682957,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 33.00001964744129,
+				"long": 44.00001964744129
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.99921154682957,
-					33.00062883697703
+					44.00001964744129,
+					33.00001964744129
 				]
 			}
 		},
@@ -7702,16 +7500,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "SD",
-				"lat": 15.999127109327354,
-				"long": 29.99991683580363,
-				"name": "Sudan",
-				"countryName": "Sudan"
+				"countryName": "Sudan",
+				"lat": 16.000087417371898,
+				"long": 30.000087417371898
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					29.99991683580363,
-					15.999127109327354
+					30.000087417371898,
+					16.000087417371898
 				]
 			}
 		},
@@ -7740,16 +7537,15 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "LR",
-				"lat": 6.500558026926357,
-				"long": -9.499187720241988,
-				"name": "Liberia",
-				"countryName": "Liberia"
+				"countryName": "Liberia",
+				"lat": 6.500043339575544,
+				"long": -9.499956660424456
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-9.499187720241988,
-					6.500558026926357
+					-9.499956660424456,
+					6.500043339575544
 				]
 			}
 		},
@@ -7778,16 +7574,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "SY",
-				"lat": 34.99945874679275,
-				"long": 38.00020612415811,
-				"name": "Syria",
-				"countryName": "Syria"
+				"countryName": "Syria",
+				"lat": 34.9999660067104,
+				"long": 37.9999660067104
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					38.00020612415811,
-					34.99945874679275
+					37.9999660067104,
+					34.9999660067104
 				]
 			}
 		},
@@ -7816,10 +7611,9 @@
 				"UNRegT": "Europe",
 				"PresElectionYear": 0.0,
 				"iso2c": "UA",
+				"countryName": "Ukraine",
 				"lat": 49.0,
-				"long": 32.0,
-				"name": "Ukraine",
-				"countryName": "Ukraine"
+				"long": 32.0
 			},
 			"geometry": {
 				"type": "Point",
@@ -7854,16 +7648,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "AF",
-				"lat": 32.99969500808849,
-				"long": 65.99955921362418,
-				"name": "Afghanistan",
-				"countryName": "Afghanistan"
+				"countryName": "Afghanistan",
+				"lat": 33.00008759093073,
+				"long": 66.00008759093073
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					65.99955921362418,
-					32.99969500808849
+					66.00008759093073,
+					33.00008759093073
 				]
 			}
 		},
@@ -7892,10 +7685,9 @@
 				"UNRegT": "Africa",
 				"PresElectionYear": 0.0,
 				"iso2c": "CM",
+				"countryName": "Cameroon",
 				"lat": 6.0,
-				"long": 12.5,
-				"name": "Cameroon",
-				"countryName": "Cameroon"
+				"long": 12.5
 			},
 			"geometry": {
 				"type": "Point",
@@ -7930,16 +7722,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 1.0,
 				"iso2c": "HT",
-				"lat": 19.000743841305415,
-				"long": -72.41758678755255,
-				"name": "Haiti",
-				"countryName": "Haiti"
+				"countryName": "Haiti",
+				"lat": 19.000090036250622,
+				"long": -72.41657996374937
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-72.41758678755255,
-					19.000743841305415
+					-72.41657996374937,
+					19.000090036250622
 				]
 			}
 		},
@@ -7968,16 +7759,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 1.0,
 				"iso2c": "YE",
-				"lat": 15.500909849155464,
-				"long": 47.49938352724991,
-				"name": "Yemen",
-				"countryName": "Yemen"
+				"countryName": "Yemen",
+				"lat": 15.500008786577634,
+				"long": 47.50000878657764
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					47.49938352724991,
-					15.500909849155464
+					47.50000878657764,
+					15.500008786577634
 				]
 			}
 		},
@@ -8006,10 +7796,9 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "DM",
+				"countryName": "Dominica",
 				"lat": 15.5,
-				"long": -61.33333,
-				"name": "Dominica",
-				"countryName": "Dominica"
+				"long": -61.33333
 			},
 			"geometry": {
 				"type": "Point",
@@ -8044,16 +7833,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "GT",
-				"lat": 15.500695340844443,
-				"long": -90.24936938671333,
-				"name": "Guatemala",
-				"countryName": "Guatemala"
+				"countryName": "Guatemala",
+				"lat": 15.499964853003297,
+				"long": -90.25003514699671
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-90.24936938671333,
-					15.500695340844443
+					-90.25003514699671,
+					15.499964853003297
 				]
 			}
 		},
@@ -8082,16 +7870,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "HN",
-				"lat": 15.000440386765638,
-				"long": -86.50025773198544,
-				"name": "Honduras",
-				"countryName": "Honduras"
+				"countryName": "Honduras",
+				"lat": 15.000078090877743,
+				"long": -86.49992190912225
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-86.50025773198544,
-					15.000440386765638
+					-86.49992190912225,
+					15.000078090877743
 				]
 			}
 		},
@@ -8120,16 +7907,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "CO",
-				"lat": 3.999050761396169,
-				"long": -73.2504833254696,
-				"name": "Colombia",
-				"countryName": "Colombia"
+				"countryName": "Colombia",
+				"lat": 4.00003529019289,
+				"long": -73.24996470980712
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-73.2504833254696,
-					3.999050761396169
+					-73.24996470980712,
+					4.00003529019289
 				]
 			}
 		},
@@ -8158,10 +7944,9 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "LK",
+				"countryName": "Sri Lanka",
 				"lat": 7.75,
-				"long": 80.75,
-				"name": "Sri Lanka",
-				"countryName": "Sri Lanka"
+				"long": 80.75
 			},
 			"geometry": {
 				"type": "Point",
@@ -8196,16 +7981,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "PE",
-				"lat": -9.999491014346171,
-				"long": -75.25011401970637,
-				"name": "Peru",
-				"countryName": "Peru"
+				"countryName": "Peru",
+				"lat": -9.999901507782619,
+				"long": -75.24990150778262
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-75.25011401970637,
-					-9.999491014346171
+					-75.24990150778262,
+					-9.999901507782619
 				]
 			}
 		},
@@ -8234,16 +8018,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "UY",
-				"lat": -32.9997034095714,
-				"long": -56.00045006710539,
-				"name": "Uruguay",
-				"countryName": "Uruguay"
+				"countryName": "Uruguay",
+				"lat": -33.00001617654794,
+				"long": -56.00001617654794
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-56.00045006710539,
-					-32.9997034095714
+					-56.00001617654794,
+					-33.00001617654794
 				]
 			}
 		},
@@ -8272,10 +8055,9 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "EC",
+				"countryName": "Ecuador",
 				"lat": -1.25,
-				"long": -78.25,
-				"name": "Ecuador",
-				"countryName": "Ecuador"
+				"long": -78.25
 			},
 			"geometry": {
 				"type": "Point",
@@ -8310,16 +8092,15 @@
 				"UNRegT": "Latin America & Caribbean",
 				"PresElectionYear": 0.0,
 				"iso2c": "HN",
-				"lat": 14.999616227421942,
-				"long": -86.50073145796193,
-				"name": "Honduras",
-				"countryName": "Honduras"
+				"countryName": "Honduras",
+				"lat": 15.000071573274369,
+				"long": -86.49992842672563
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-86.50073145796193,
-					14.999616227421942
+					-86.49992842672563,
+					15.000071573274369
 				]
 			}
 		},
@@ -8348,16 +8129,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "TH",
-				"lat": 15.4990666971505,
-				"long": 100.99935337877247,
-				"name": "Thailand",
-				"countryName": "Thailand"
+				"countryName": "Thailand",
+				"lat": 15.499927465455118,
+				"long": 100.99992746545512
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.99935337877247,
-					15.4990666971505
+					100.99992746545512,
+					15.499927465455118
 				]
 			}
 		},
@@ -8386,16 +8166,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "IQ",
-				"lat": 33.00014645938737,
-				"long": 43.99968229670487,
-				"name": "Iraq",
-				"countryName": "Iraq"
+				"countryName": "Iraq",
+				"lat": 33.00003524626643,
+				"long": 44.00003524626643
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					43.99968229670487,
-					33.00014645938737
+					44.00003524626643,
+					33.00003524626643
 				]
 			}
 		},
@@ -8424,16 +8203,15 @@
 				"UNRegT": "Asia",
 				"PresElectionYear": 0.0,
 				"iso2c": "SA",
-				"lat": 25.000349990415433,
-				"long": 44.99969241850602,
-				"name": "Saudi Arabia",
-				"countryName": "Saudi Arabia"
+				"countryName": "Saudi Arabia",
+				"lat": 24.999942437098557,
+				"long": 44.99994243709856
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					44.99969241850602,
-					25.000349990415433
+					44.99994243709856,
+					24.999942437098557
 				]
 			}
 		}
