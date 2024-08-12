@@ -3,170 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Mapping the History of US Military Interventions</title>
+    <link rel="stylesheet" href="style.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/mapboxgl-spiderifier@1.0.10/index.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/mapboxgl-spiderifier@1.0.10/index.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>        
-
-    <style>
-        @font-face {
-            font-family: 'regular';
-            src: url('fonts/Roboto-Regular.ttf');
-        }
-
-        @font-face {
-            font-family: 'italic';
-            src: url('fonts/GT-America-Mono-Thin-Italic-Trial.otf');
-        }
-        body { 
-            margin: 0; 
-            padding: 0; 
-        }
-        a{
-            color: white;
-        }
-        #header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #1A1A1A;
-            padding-left: 10px;
-            z-index: 100;
-            font-family: 'italic';
-            font-size: 10px;
-            color: #fff;
-        }
-        #map { 
-            position: absolute; 
-            top: 1.2em; 
-            bottom: 0; 
-            width: 100%; 
-        }
-        #console {
-            position: fixed;
-            width: 300px;
-            margin: 10px;
-            margin-top: 90px;
-            padding: 10px 20px;
-            background-color: #0D0D0D;
-            font-family: 'regular';
-            font-size: 14px;
-            line-height: 1.5em;
-            color: white;
-        }
-        .tabs {
-            position: fixed;
-            width: 240px;
-            margin: 10px;
-            margin-top: 65px;
-            display: flex;
-            flex-direction: row;
-            font-family: 'italic';
-            font-size: 12px;
-            color: white;
-        }
-        .tab {
-            padding: 6px;
-            cursor: pointer;
-            margin-bottom: 5px;
-            font-family: 'italic';
-            font-size: 12px;
-        }
-        .tab.active {
-            background-color: #0D0D0D;
-        }
-        .tab-content {
-            display: none;
-            overflow: auto;
-        }
-        .tab-content.active {
-            display: block;
-            margin-left: 5px;
-        }
-        #more {
-            max-height: 100%; /* Set max height to the available space */
-        }
-        .filter {
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* dropdowns */
-        .dropdown-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2px;
-            border: 1px solid #333; /* Square border around the dropdown */
-            background-color: #0D0D0D;
-            font-size: 12px;
-            color: white;
-        }
-        .dropdown {
-            border: none;
-            background-color: #0D0D0D;
-            padding: 5px;
-            font-size: 12px;
-            color: white;
-            cursor: pointer;
-            border-radius: 0;
-            width: 100%;
-        }
-
-        /* checkboxes */
-        .checkbox-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-            padding: 5px;
-            margin-bottom: 2px;
-            border: 1px solid #333;
-            background-color: #0D0D0D;
-            cursor: pointer;
-            font-size: 12px;
-            color: white;
-        }
-
-        .checkbox-container input[type="checkbox"] {
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-        }
-
-        .checkmark {
-            width: 15px;
-            height: 15px;
-            margin-left: 10px;
-            border: 1px solid #333;
-            background-color: black;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .checkmark::after {
-            content: "";
-            width: 5px;
-            height: 5px;
-            border-radius: 50%;
-            background-color: white;
-            position: absolute;
-            display: none;
-        }
-
-        .checkbox-container input[type="checkbox"]:checked + .checkmark::after {
-            display: block;
-        }
-        
-        img {
-            margin-top: 10px;
-        }
-
-
-    </style>
 </head>
 <body>
     <div id="map"></div>
@@ -176,105 +18,177 @@
         <h1>A MAPPED HISTORY OF US MILITARY INTERVENTIONS</h1>
     </div>
 
-    <div id="sidebar">
+    <button id="open-sidebar" class="visible">+ Show Filters</button>
+
+    <div id="sidebar" class="hidden">
         <div class="tabs">
             <div class="tab active" data-target="filters">Filters</div>
             <div class="tab" data-target="about">About</div>
+            <button id="close-sidebar">x</button>
         </div>
         <div id="console">
             <div class="tab-content-container">
-
                 <div id="filters" class="tab-content active">
-
-                    <div class="session" id="eras-filter">
-                        <h3>Filter by time period</h3>
-                        <div class="dropdown-container">
-                            <select id="era-dropdown" class="dropdown">
-                                <option value="all">All</option>
-                                <option value="3.0">Postwar</option>
-                                <option value="4.0">Cold War</option>
-                                <option value="5.0">Pre 9/11</option>
-                                <option value="6.0">Post 9/11</option>
-                            </select>
+                    <div class="filter">
+                        <div class="filterTitle">
+                            <b>Filter by Time Period</b>
                         </div>
-                    </div>
-
-                    <div class="session" id="pres-filter">
-                        <h3>Filter by President</h3>
-                        <div class = "dropdown-container">
-                            <select id="president-dropdown" class="dropdown">
-                                <option value="all">All</option>
-                                <option value="Truman">Truman</option>
-                                <option value="Eisenhower">Eisenhower</option>
-                                <option value="Kennedy">Kennedy</option>
-                                <option value="Johnson">Johnson</option>
-                                <option value="Nixon">Nixon</option>
-                                <option value="Ford">Ford</option>
-                                <option value="Carter">Carter</option>
-                                <option value="Reagan">Reagan</option>
-                                <option value="Bush Sr.">Bush Sr.</option>
-                                <option value="Clinton">Clinton</option>
-                                <option value="Bush Jr.">Bush Jr.</option>
-                                <option value="Obama">Obama</option>
-                                <option value="Trump">Trump</option>
-                            </select>
+                        <div class="slider-container">
+                            <div id="period-slider">
+                                <div id="minLabel" class="slider-label">1945</div>
+                                <div id="maxLabel" class="slider-label">2019</div>
+                                <input id="fromSlider"class="slider" type="range" min="1945" max="2019" step="1" value="1945"/>
+                                <input id="toSlider" class="slider" type="range" min="1945" max="2019" step="1" value="2019"/>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="session" id="motives-filter">
-                        <h3>Intervention Motives</h3>
-                        <div class="session" id="checklistbar">
+                    </div>  
+                    
+                    <div class="filter" style="margin-bottom: 15px;">
+                        <div class="filterTitle">
+                            <b>Filter by Objective</b>
+                        </div>
+                        <div id="filter-controls">
+                            <button id="selectAll" data-target="objective-checklist">Select All</button>
+                            <button id="clearAll" data-target="objective-checklist" style="margin-left: 5px">Clear All</button>
+                        </div>
+                        <div id="objective-checklist">
                             <label class="checkbox-container">
                                 Remove Foreign Regime
-                                <input type="checkbox" class="motives-checkbox" value="Remove Foreign Regime" checked>
+                                <input type="checkbox" class="objective-checkbox" value="ForeignReg" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Build Foreign Regime Authority
-                                <input type="checkbox" class="motives-checkbox" value="Build Foreign Regime Authority" checked>
+                                <input type="checkbox" class="objective-checkbox" value="BuildReg" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Maintain Empire
-                                <input type="checkbox" class="motives-checkbox" value="Maintain Empire" checked>
+                                <input type="checkbox" class="objective-checkbox" value="Empire" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Acquire/Defend Territory
-                                <input type="checkbox" class="motives-checkbox" value="Acquire/Defend Territory" checked>
+                                <input type="checkbox" class="objective-checkbox" value="Territory" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Policy Change
-                                <input type="checkbox" class="motives-checkbox" value="Policy Change" checked>
+                                <input type="checkbox" class="objective-checkbox" value="Policy" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Social Protection
-                                <input type="checkbox" class="motives-checkbox" value="Social Protection" checked>
+                                <input type="checkbox" class="objective-checkbox" value="SocialProt" checked>
                                 <span class="checkmark"></span>
                             </label>
                             <label class="checkbox-container">
                                 Economic Protection
-                                <input type="checkbox" class="motives-checkbox" value="Economic Protection" checked>
+                                <input type="checkbox" class="objective-checkbox" value="Economic" checked>
                                 <span class="checkmark"></span>
                             </label>
                         </div>
+                    </div>
 
+                    <div class="filter">
+                        <div class="filterTitle">
+                            <b>Filter by President</b>
+                        </div>
+                        <div id="filter-controls">
+                            <button id="selectAll" data-target="president-checklist">Select All</button>
+                            <button id="clearAll" data-target="president-checklist" style="margin-left: 5px">Clear All</button>
+                        </div>
+                        <div id="president-checklist">
+                            <label class="checkbox-container">
+                                Truman
+                                <input type="checkbox" class="president-checkbox" value="Truman" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Eisenhower
+                                <input type="checkbox" class="president-checkbox" value="Eisenhower" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Kennedy
+                                <input type="checkbox" class="president-checkbox" value="Kennedy" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Johnson
+                                <input type="checkbox" class="president-checkbox" value="Johnson" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Nixon
+                                <input type="checkbox" class="president-checkbox" value="Nixon" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Ford
+                                <input type="checkbox" class="president-checkbox" value="Ford" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Carter
+                                <input type="checkbox" class="president-checkbox" value="Carter" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Reagan
+                                <input type="checkbox" class="president-checkbox" value="Reagan" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Bush Sr.
+                                <input type="checkbox" class="president-checkbox" value="GHW" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Clinton
+                                <input type="checkbox" class="president-checkbox" value="Clinton" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Bush Jr.
+                                <input type="checkbox" class="president-checkbox" value="GWB" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Obama
+                                <input type="checkbox" class="president-checkbox" value="Obama" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Trump
+                                <input type="checkbox" class="president-checkbox" value="Trump" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        
                     </div>
                     
                 </div>
                 <div id="about" class="tab-content">
-                    <p>From covert coup d’etats to full-fledged war, the United States has consistently taken on an interventionist 
-                    stance when it comes to foreign policy ever since its rise to a hegemonic power post World War II. In 2023, it spent around 
-                    $961 billion in defense alone, which is more than the defense spending of 31 of its NATO allies combined. The exact scale and reach 
-                    of US interventionism, however, is seldom discussed in its entirety.</p>
-
-                    <p>This map visualizes a history of US interventions around the world from 1945 to 2019 using data from the <a href="https://sites.tufts.edu/css/mip-research/mip-dataset/">Military Intervention Project (MIP)</a>, 
-                    which was compiled by researchers at Tuft University. It is far from comprehensive; because the dataset ends in 2019, it leaves out major 
-                    events that have occured since then such as the ongoing Ukrainian War and the Israel-Palestine Conflict. It also seems to leave out more 
-                    controversial instances, such as support for the Guatemalan Civil War, which has now been ruled a genocide, or support for the Suharto regime 
-                    during the Indonesian Mass Killings of 1965-1966.</p>
+                    <p>The United States has long been notorious for its interventionist foreign policy. Following 9/11, the U.S. has spent over <a href="https://watson.brown.edu/costsofwar/costs/economic">$8 trillion</a> 
+                        on wars in the Middle East, and in 2023 alone, the U.S. spent around $961 billion on defense—more than the combined defense budgets 
+                        of 31 NATO allies. These interventions, whether it’s humanitarian assistance or full-fledged warfare, are often justified as efforts 
+                        to advance democracy and human rights. </p>
+                    <p>History has shown, however, that U.S. interventions have <a href="https://thehill.com/opinion/international/4703263-americas-interventionist-foreign-policy-continues-to-destabilize-the-world/">the opposite effect</a>. Intervened regions are left more destabilized than before, 
+                        and military aid leads to increased corruption and exclusion in recipient countries, all of which in turn contributes to <a href="https://cepr.org/system/files/publication-files/181996-nation_building_big_lessons_from_successes_and_failures.pdf">the rise of 
+                        anti-American terrorism</a>. Numerous interventions were carried out to support repressive authoritarian regimes because they were more 
+                        favorable to Western hegemony and U.S. business interests. This certainly is the case of the 1954 Guatemalan coup of democratically 
+                        elected president Jacobo Árbenz, who threatened the profits of U.S. banana conglomerate United Fruit Company. </p>
+                    <p>Despite all of this, the U.S. has increasingly relied on military interventions over diplomacy after 9/11. </p>
+                    <p>This map was created using the <a href="https://sites.tufts.edu/css/mip-research/mip-dataset/">Military Intervention Project (MIP)</a> dataset, compiled by researchers at Tufts University. It visualizes the 
+                        history of U.S. military interventions from the end of World War II to present day. The dataset remains incomplete. The MIP data incorporates 
+                        confirmed covert operations and low-profile interventions by Special Operations forces, but a combination of U.S. government secrecy and the 
+                        dataset's scrupulous sourcing standards guarantees that post-9/11 tally is an undercount, <a href="https://www.commondreams.org/views/2022/08/10/911-us-has-increased-military-interventions-historic-levels">according to Kushi</a>, an assistant professor of Political 
+                        Science at Bridgewater State University and a non-residential fellow at Tufts' Center for Strategic Studies. It also leaves out significant 
+                        incidents where the U.S. may have intervened, but not militarily — the 1973 Chilean coup of president Salvador Allende, for example, or the 1965 
+                        Indonesian massacres. Finally, the dataset has not been updated with the interventions that have occurred in the time since 2019 such as the 
+                        ongoing Ukrainian War or the Israel-Palestine Conflict.</p>
+                    <P>You can find the combined case narratives for the MIP dataset <a href="https://sites.tufts.edu/css/files/2023/04/Combined-Case-Narratives_MIP.pdf">here</a>.</P>
                 </div>
             </div>
         </div>
@@ -288,6 +202,131 @@
 
                 document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
                 document.getElementById(tab.getAttribute('data-target')).classList.add('active');
+            });
+        });
+
+        function controlFromSlider(fromSlider, toSlider) {
+            const [from, to] = getParsed(fromSlider, toSlider);
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#f62c2c', toSlider);
+            if (from > to) {
+                fromSlider.value = to;
+            } else {
+                fromSlider.value = from;
+            }
+        }
+
+        function controlToSlider(fromSlider, toSlider) {
+            const [from, to] = getParsed(fromSlider, toSlider);
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#f62c2c', toSlider);
+            setToggleAccessible(toSlider);
+            if (from <= to) {
+                toSlider.value = to;
+            } else {
+                toSlider.value = from;
+            }
+        }
+
+        function getParsed(currentFrom, currentTo) {
+            const from = parseInt(currentFrom.value, 10);
+            const to = parseInt(currentTo.value, 10);
+            return [from, to];
+        }
+
+        function fillSlider(from, to, sliderColor, rangeColor, controlSlider) {
+            const rangeDistance = to.max-to.min;
+            const fromPosition = from.value - to.min;
+            const toPosition = to.value - to.min;
+            controlSlider.style.background = `linear-gradient(
+            to right,
+            ${sliderColor} 0%,
+            ${sliderColor} ${(fromPosition)/(rangeDistance)*100}%,
+            ${rangeColor} ${((fromPosition)/(rangeDistance))*100}%,
+            ${rangeColor} ${(toPosition)/(rangeDistance)*100}%, 
+            ${sliderColor} ${(toPosition)/(rangeDistance)*100}%, 
+            ${sliderColor} 100%)`;
+        }
+
+        function setToggleAccessible(currentTarget) {
+        const toSlider = document.querySelector('#toSlider');
+        if (Number(currentTarget.value) <= 0 ) {
+            toSlider.style.zIndex = 2;
+        } else {
+            toSlider.style.zIndex = 0;
+        }
+        }
+
+        function updateLabels() {
+            const minPercent = ((fromSlider.value - fromSlider.min) / (fromSlider.max - fromSlider.min)) * 100;
+            const maxPercent = ((toSlider.value - toSlider.min) / (toSlider.max - toSlider.min)) * 100;
+
+            minLabel.style.left = `${minPercent}%`;
+            maxLabel.style.left = `${maxPercent}%`;
+
+            minLabel.textContent = fromSlider.value;
+            maxLabel.textContent = toSlider.value;
+        }
+
+
+        const fromSlider = document.querySelector('#fromSlider');
+        const toSlider = document.querySelector('#toSlider');
+        fillSlider(fromSlider, toSlider, '#C6C6C6', '#f62c2c', toSlider);
+        setToggleAccessible(toSlider);
+
+        fromSlider.oninput = () => {
+            controlFromSlider(fromSlider, toSlider);
+            updateLabels();
+        }
+        toSlider.oninput = () => {
+            controlToSlider(fromSlider, toSlider);
+            updateLabels();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const buttons = document.querySelectorAll('#filter-controls button');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const targetId = button.getAttribute('data-target');
+                    const checklistContainer = document.getElementById(targetId);
+
+                    if (button.id === 'selectAll') {
+                        selectAll(checklistContainer);
+                    } else if (button.id === 'clearAll') {
+                        clearAll(checklistContainer);
+                    }
+                });
+            });
+
+            const selectAll = (container) => {
+                const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+                checkboxes.forEach(checkbox => checkbox.checked = true);
+                window.applyFilters();
+            };
+
+            const clearAll = (container) => {
+                const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+                checkboxes.forEach(checkbox => checkbox.checked = false);
+                window.applyFilters();
+            };
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const openSidebar = document.getElementById('open-sidebar');
+            const closeSidebar = document.getElementById('close-sidebar');
+            const sidebar = document.getElementById('sidebar');
+
+            closeSidebar.addEventListener('click', () => {
+                sidebar.classList.remove('visible');
+                sidebar.classList.add('hidden');
+                openSidebar.classList.remove('hidden');
+                openSidebar.classList.add('visible');
+            });
+
+            openSidebar.addEventListener('click', () => {
+                openSidebar.classList.remove('visible');
+                openSidebar.classList.add('hidden');
+                sidebar.classList.remove('hidden');
+                sidebar.classList.add('visible');
             });
         });
     </script>

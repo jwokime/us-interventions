@@ -16,14 +16,13 @@ map.keyboard.disable();
 map.on('load', () => {
     map.addSource('interv', {
         type: 'geojson',
-        data: './data/interventions.geojson', 
+        data: './data/ai_interventions.geojson', 
         cluster: true, 
         clusterMaxZoom: 14, 
         clusterRadius: 50,
     });
 
-    let source = map.getSource('interv');
-    let filterSource = map.getSource('interv');
+    let sourceData = map.getSource('interv');
 
     map.addLayer({
         id: 'clusters', 
@@ -70,7 +69,7 @@ map.on('load', () => {
             'circle-color': '#f62c2c',
             'circle-radius': 5,
             'circle-stroke-width': 1,
-            'circle-stroke-color': '#fff'
+            'circle-stroke-color': '#000000'
         }
     });
        
@@ -113,36 +112,138 @@ map.on('load', () => {
         spiderifier.unspiderfy();
     });
 
-    // function filterEras(selectedEra) {
-    //     let data = source._data;
-    //     let filteredData;
+    fetch('./data/ai_interventions.geojson')
+    .then(response => response.json())
+    .then(geojsonData => {
+        const allData = JSON.parse(JSON.stringify(geojsonData));
 
-    //     let filteredData = {
-    //         type: 'FeatureCollection',
-    //         features: data.features.filter(feature => {
-    //             return feature.properties.Era === parseFloat(selectedEra);
-    //         })
-    //     };
+        window.applyFilters = () => {
+            const fromYear = parseInt(document.querySelector('#fromSlider').value);
+            const toYear = parseInt(document.querySelector('#toSlider').value);
+            const presidentCheckboxes = document.querySelectorAll('#president-checklist .president-checkbox');
+            const objectiveCheckboxes = document.querySelectorAll('#objective-checklist .objective-checkbox');
+            let filteredData;
 
-    //     source.setData(filteredData);
-    // }
+            const selectedPresidents = Array.from(presidentCheckboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => checkbox.value);
+
+            const selectedObjectives = Array.from(objectiveCheckboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => checkbox.value);
+
+            // Apply combined filtering
+            if (selectedPresidents.length === 0 || selectedObjectives.length === 0)  {
+                filteredData = {
+                    type: 'FeatureCollection',
+                    features: []
+                };
+            } else {
+                filteredData = {
+                    type: 'FeatureCollection',
+                    features: allData.features.filter(feature => {
+                        const stYear = feature.properties.styear;
+                        const endYear = feature.properties.endyear;
     
+                        const yearMatch = (stYear >= fromYear && stYear <= toYear) || 
+                                          (endYear >= fromYear && endYear <= toYear);
+    
+                        const presidentMatch = selectedPresidents.includes(feature.properties.PresName);
+    
+                        const objectiveMatch = selectedObjectives.some(objective => feature.properties[objective] === 1.0);
+    
+                        return yearMatch && presidentMatch && objectiveMatch;
+                    })
+                };
+            }
 
-    document.getElementById('era-dropdown').addEventListener('change', (event) => {
-        const selectedEra = event.target.value;
+            sourceData.setData(filteredData);
+        };
+
+        document.getElementById('period-slider').addEventListener('input', window.applyFilters);
+        document.getElementById('president-checklist').addEventListener('change', window.applyFilters);
+        document.getElementById('objective-checklist').addEventListener('change', window.applyFilters);
+    })
+
+    // fetch('./data/interventions.geojson')
+    //     .then(response => response.json())
+    //     .then(geojsonData => {
+    //         const allData = JSON.parse(JSON.stringify(geojsonData));
         
-        if (selectedEra === 'all') {
-            map.setFilter('unclustered-point', ['!', ['has', 'point_count']]);
-        } else {
-            map.setFilter(
-                'unclustered-point', 
-                ['all', 
-                    ['==', ['get', 'Era'], parseFloat(selectedEra)],
-                    ['!', ['has', 'point_count']], 
-                ]
-            );
-        }
-    });
+    //     document.getElementById('period-slider').addEventListener('input', (event) => {
+    //         const fromYear = document.querySelector('#fromSlider').value;
+    //         const toYear = document.querySelector('#toSlider').value;
+    //         let filteredData;
+
+    //         filteredData = {
+    //             type: 'FeatureCollection',
+    //             features: allData.features.filter(feature => {
+    //                 const stYear = feature.properties.styear;
+    //                 const endYear = feature.properties.endyear;
+            
+    //                 return (stYear >= fromYear && stYear <= toYear) ||
+    //                        (endYear >= fromYear && endYear <= toYear);
+    //             })
+    //         }
+
+    //         sourceData.setData(filteredData);
+    //     });
+
+    //     document.getElementById('president-checklist').addEventListener('change', (event) => {
+    //         const checkboxes = document.querySelectorAll('#president-checklist .president-checkbox');
+    //         const selected = [];
+    //         let filteredData;
+    //         console.log(selected);    
+    //         checkboxes.forEach(checkbox => {
+    //             if (checkbox.checked) {
+    //                 selected.push(checkbox.value);
+    //             }
+    //         });
+
+    //         if(selected.length === 0) {
+    //             filteredData = {
+    //                 type: 'FeatureCollection',
+    //                 features: []
+    //             };
+    //         } else {
+    //             filteredData = {
+    //                 type: 'FeatureCollection',
+    //                 features: allData.features.filter(feature => {
+    //                     return selected.some(pres => feature.properties.PresName === pres);
+    //                 })
+    //             };
+    //         }
+    //         console.log(filteredData);    
+    //         sourceData.setData(filteredData);
+    //     });
+
+    //     document.getElementById('objective-checklist').addEventListener('change', (event) => {
+    //         const checkboxes = document.querySelectorAll('#objective-checklist .objective-checkbox');
+    //         const selected = [];
+    //         let filteredData;
+            
+    //         checkboxes.forEach(checkbox => {
+    //             if (checkbox.checked) {
+    //                 selected.push(checkbox.value);
+    //             }
+    //         });
+
+    //         if(selected.length === 0) {
+    //             filteredData = {
+    //                 type: 'FeatureCollection',
+    //                 features: []
+    //             };
+    //         } else {
+    //             filteredData = {
+    //                 type: 'FeatureCollection',
+    //                 features: allData.features.filter(feature => {
+    //                     return selected.some(objective => feature.properties[objective] === parseFloat(1.0));
+    //                 })
+    //             };
+    //         }
+    //         sourceData.setData(filteredData);
+    //     });
+    // });
 
 });
 
@@ -160,7 +261,7 @@ var spiderifier = new MapboxglSpiderifier(map, {
         spiderPinCustom.style.marginLeft = '-5px';
         spiderPinCustom.style.marginTop = '-5px';
         spiderPinCustom.style.backgroundColor = '#f62c2c';
-        spiderPinCustom.style.border = '1px solid #fff';
+        spiderPinCustom.style.border = '1px solid #000000';
         spiderPinCustom.style.opacity = '0.8';
         spiderPinCustom.style.borderRadius = '50%';
         
@@ -168,6 +269,7 @@ var spiderifier = new MapboxglSpiderifier(map, {
         const country = feature.countryName;
         const name = feature.Name;
         const year = feature.styear;
+        const endyear = feature.endyear === undefined ? 'Present' : feature.endyear;
         const description = feature.Description;
         const objective = feature.Objective;
 
@@ -178,11 +280,11 @@ var spiderifier = new MapboxglSpiderifier(map, {
         });
 
         popup.setHTML(
-            `Country: ${country}
-            <br><b>Name: </b>${name}
-            <br><b>Year: </b>${year}
-            <br><b>Description: </b>${description}
-            <br><b>Objective: </b>${objective}`
+            `<b>Name: </b>${name}
+            <br><b>Country: </b>${country}
+            <br><b>Period: </b>${year}-${endyear}
+            <br><b>Objective: </b>${objective}
+            <br><b>Description: </b>${description}`
         );
         
         // Associate the popup with the spider leg's marker
@@ -208,8 +310,7 @@ map.on('mouseenter', 'unclustered-point', (e) => {
     const objective = e.features[0].properties.Objective;
     const description = e.features[0].properties.Description;
     const year = e.features[0].properties.styear;
-    // const tsunami =
-    //     e.features[0].properties.tsunami === 1 ? 'yes' : 'no';
+    const endyear = e.features[0].properties.endyear === undefined ? 'Present' : e.features[0].properties.endyear;
 
     if (['mercator', 'equirectangular'].includes(map.getProjection().name)) {
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
@@ -220,11 +321,11 @@ map.on('mouseenter', 'unclustered-point', (e) => {
     popup = new mapboxgl.Popup()
         .setLngLat(coordinates)
         .setHTML(
-            `<b>Country: </b>${country}
-            <br><b>Name: </b>${name}
-            <br><b>Year: </b>${year}
-            <br><b>Description: </b>${description}
-            <br><b>Objective: </b>${objective}`
+            `<b>Name: </b>${name}
+            <br><b>Country: </b>${country}
+            <br><b>Period: </b>${year}-${endyear}
+            <br><b>Objective: </b>${objective}
+            <br><b>Description: </b>${description}`
         )
         .addTo(map);
 });
