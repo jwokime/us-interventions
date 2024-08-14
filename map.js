@@ -272,6 +272,7 @@ var spiderifier = new MapboxglSpiderifier(map, {
         const endyear = feature.endyear === undefined ? 'Present' : feature.endyear;
         const description = feature.Description;
         const objective = feature.Objective;
+        const fatalities = feature.Fatalities;
 
         var popup = new mapboxgl.Popup({
             closeButton: true,
@@ -284,7 +285,8 @@ var spiderifier = new MapboxglSpiderifier(map, {
             <br><b>Country: </b>${country}
             <br><b>Period: </b>${year}-${endyear}
             <br><b>Objective: </b>${objective}
-            <br><b>Description: </b>${description}`
+            <br><b>Description: </b>${description}
+            <br><b>Fatalities: </b>${fatalities}`
         );
         
         // Associate the popup with the spider leg's marker
@@ -311,6 +313,7 @@ map.on('mouseenter', 'unclustered-point', (e) => {
     const description = e.features[0].properties.Description;
     const year = e.features[0].properties.styear;
     const endyear = e.features[0].properties.endyear === undefined ? 'Present' : e.features[0].properties.endyear;
+    const fatalities = e.features[0].properties.Fatalities;
 
     if (['mercator', 'equirectangular'].includes(map.getProjection().name)) {
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
@@ -325,7 +328,8 @@ map.on('mouseenter', 'unclustered-point', (e) => {
             <br><b>Country: </b>${country}
             <br><b>Period: </b>${year}-${endyear}
             <br><b>Objective: </b>${objective}
-            <br><b>Description: </b>${description}`
+            <br><b>Description: </b>${description}
+            <br><b>Fatalities: </b>${fatalities}`
         )
         .addTo(map);
 });
