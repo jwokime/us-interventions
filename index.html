@@ -19,17 +19,17 @@
         <h1>A MAPPED HISTORY OF US MILITARY INTERVENTIONS</h1>
     </div>
 
-    <button id="open-sidebar" class="visible">+ Show Filters</button>
+    <button id="open-sidebar" class="hidden">+ Show Filters</button>
 
-    <div id="sidebar" class="hidden">
+    <div id="sidebar" class="visible">
         <div class="tabs">
-            <div class="tab active" data-target="filters">Filters</div>
-            <div class="tab" data-target="about">About</div>
+            <div class="tab" data-target="filters">Filters</div>
+            <div class="tab active" data-target="about">About</div>
             <button id="close-sidebar">x</button>
         </div>
         <div id="console">
             <div class="tab-content-container">
-                <div id="filters" class="tab-content active">
+                <div id="filters" class="tab-content">
                     <div class="filter">
                         <div class="filterTitle">
                             <b>Filter by Time Period</b>
@@ -170,7 +170,7 @@
                     </div>
                     
                 </div>
-                <div id="about" class="tab-content">
+                <div id="about" class="tab-content active">
                     <p>The United States has long been notorious for its interventionist foreign policy. Following 9/11, the U.S. has spent over <a href="https://watson.brown.edu/costsofwar/costs/economic">$8 trillion</a> 
                         on wars in the Middle East, and in 2023 alone, the U.S. spent around $961 billion on defense—more than the combined defense budgets 
                         of 31 NATO allies. These interventions, whether it’s humanitarian assistance or full-fledged warfare, are often justified as efforts 
